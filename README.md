@@ -234,14 +234,14 @@ cd RepoExec/bigcode-eval-repoexec
 pip install -e .
 ```
 
-Example scripts are in [phi-2-generation](https://github.com/FSoft-AI4Code/RepoExec/blob/main/bigcode-eval-repoexec/scripts/generation.sh)
+Example scripts are in [phi-2-generation](https://github.com/FSoft-AI4Code/RepoExec/blob/master/bigcode-eval-repoexec/scripts/generation.sh)
 
 There are 2 kinds of prompts: BasePrompt and InstructPrompt:
 - To use BasePrompt, specify the `--tasks` argument to `repo-codegen-{full|medium|short}-context`.
 - To use InstructPrompt, specify the `--tasks` argument to `instruct-repo-codegen-{full|medium|short}-context` and `prompt` argument to use the template specific for each model (e.g. `--prompt codellama` for CodeLlama series).
 
 
-After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoExec/tree/main/results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2)
+After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoExec/tree/master/results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2)
 
 Example:
 ```python
