@@ -1,0 +1,10 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_51,input.test-apps.tornado.tornado.test_bind_sockets,test_51,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0007586809806525707
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_72,input.test-apps.tornado.tornado.test_bind_sockets,test_72,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0005259949248284101
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_85,input.test-apps.tornado.tornado.test_bind_sockets,test_85,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0004233631771057844
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_90,input.test-apps.tornado.tornado.test_bind_sockets,test_90,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0004084950778633356
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_93,input.test-apps.tornado.tornado.test_bind_sockets,test_93,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0003102910704910755
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_106,input.test-apps.tornado.tornado.test_bind_sockets,test_106,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0003996680025011301
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_2,input.test-apps.tornado.tornado.test_bind_sockets,test_2,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.0004437819588929415
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_4,input.test-apps.tornado.tornado.test_bind_sockets,test_4,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.00046660308726131916
+input/test-apps/tornado/tornado/test_bind_sockets.py::test_138,input.test-apps.tornado.tornado.test_bind_sockets,test_138,input/test-apps/tornado/tornado/test_bind_sockets.py,,,passed,,0.00043233996257185936

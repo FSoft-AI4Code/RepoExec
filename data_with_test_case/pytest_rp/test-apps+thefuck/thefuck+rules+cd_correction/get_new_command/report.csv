@@ -1,0 +1,9 @@
+id,module,name,file,doc,markers,status,message,duration
+thefuck/rules/test_get_new_command.py::test_20,thefuck.rules.test_get_new_command,test_20,thefuck/rules/test_get_new_command.py,,,passed,,0.0005500440020114183
+thefuck/rules/test_get_new_command.py::test_71,thefuck.rules.test_get_new_command,test_71,thefuck/rules/test_get_new_command.py,,,passed,,0.00023574288934469223
+thefuck/rules/test_get_new_command.py::test_117,thefuck.rules.test_get_new_command,test_117,thefuck/rules/test_get_new_command.py,,,passed,,0.00021055596880614758
+thefuck/rules/test_get_new_command.py::test_130,thefuck.rules.test_get_new_command,test_130,thefuck/rules/test_get_new_command.py,,,passed,,0.00020700902678072453
+thefuck/rules/test_get_new_command.py::test_180,thefuck.rules.test_get_new_command,test_180,thefuck/rules/test_get_new_command.py,,,passed,,0.00021104584448039532
+thefuck/rules/test_get_new_command.py::test_188,thefuck.rules.test_get_new_command,test_188,thefuck/rules/test_get_new_command.py,,,passed,,0.00020460505038499832
+thefuck/rules/test_get_new_command.py::test_207,thefuck.rules.test_get_new_command,test_207,thefuck/rules/test_get_new_command.py,,,passed,,0.00020928285084664822
+thefuck/rules/test_get_new_command.py::test_229,thefuck.rules.test_get_new_command,test_229,thefuck/rules/test_get_new_command.py,,,passed,,0.00020113796927034855

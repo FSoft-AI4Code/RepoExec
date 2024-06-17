@@ -1,0 +1,17 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/configuration/test_get_config.py::test_0,luigi.configuration.test_get_config,test_0,luigi/configuration/test_get_config.py,,,passed,,0.00048859603703022
+luigi/configuration/test_get_config.py::test_7,luigi.configuration.test_get_config,test_7,luigi/configuration/test_get_config.py,,,passed,,0.0002798049245029688
+luigi/configuration/test_get_config.py::test_13,luigi.configuration.test_get_config,test_13,luigi/configuration/test_get_config.py,,,passed,,0.0003271640744060278
+luigi/configuration/test_get_config.py::test_17,luigi.configuration.test_get_config,test_17,luigi/configuration/test_get_config.py,,,passed,,0.0003111339174211025
+luigi/configuration/test_get_config.py::test_18,luigi.configuration.test_get_config,test_18,luigi/configuration/test_get_config.py,,,passed,,0.00023998995311558247
+luigi/configuration/test_get_config.py::test_21,luigi.configuration.test_get_config,test_21,luigi/configuration/test_get_config.py,,,passed,,0.0002420339733362198
+luigi/configuration/test_get_config.py::test_22,luigi.configuration.test_get_config,test_22,luigi/configuration/test_get_config.py,,,passed,,0.0003638630732893944
+luigi/configuration/test_get_config.py::test_35,luigi.configuration.test_get_config,test_35,luigi/configuration/test_get_config.py,,,passed,,0.0002214659471064806
+luigi/configuration/test_get_config.py::test_39,luigi.configuration.test_get_config,test_39,luigi/configuration/test_get_config.py,,,passed,,0.00022460101172327995
+luigi/configuration/test_get_config.py::test_45,luigi.configuration.test_get_config,test_45,luigi/configuration/test_get_config.py,,,passed,,0.00021166796796023846
+luigi/configuration/test_get_config.py::test_50,luigi.configuration.test_get_config,test_50,luigi/configuration/test_get_config.py,,,passed,,0.00021755811758339405
+luigi/configuration/test_get_config.py::test_51,luigi.configuration.test_get_config,test_51,luigi/configuration/test_get_config.py,,,passed,,0.00021651596762239933
+luigi/configuration/test_get_config.py::test_53,luigi.configuration.test_get_config,test_53,luigi/configuration/test_get_config.py,,,passed,,0.0002128100022673607
+luigi/configuration/test_get_config.py::test_3,luigi.configuration.test_get_config,test_3,luigi/configuration/test_get_config.py,,,passed,,0.00030056387186050415
+luigi/configuration/test_get_config.py::test_27,luigi.configuration.test_get_config,test_27,luigi/configuration/test_get_config.py,,,passed,,0.0002655680291354656
+luigi/configuration/test_get_config.py::test_34,luigi.configuration.test_get_config,test_34,luigi/configuration/test_get_config.py,,,passed,,0.0011811561416834593

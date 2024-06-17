@@ -1,0 +1,15 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test__quote.py::test_0,sanic.test__quote,test_0,sanic/test__quote.py,,,passed,,0.0005217569414526224
+sanic/test__quote.py::test_3,sanic.test__quote,test_3,sanic/test__quote.py,,,passed,,0.0002694439608603716
+sanic/test__quote.py::test_4,sanic.test__quote,test_4,sanic/test__quote.py,,,passed,,0.0003049001097679138
+sanic/test__quote.py::test_5,sanic.test__quote,test_5,sanic/test__quote.py,,,passed,,0.00023164390586316586
+sanic/test__quote.py::test_9,sanic.test__quote,test_9,sanic/test__quote.py,,,passed,,0.00023224507458508015
+sanic/test__quote.py::test_10,sanic.test__quote,test_10,sanic/test__quote.py,,,passed,,0.00025044800713658333
+sanic/test__quote.py::test_12,sanic.test__quote,test_12,sanic/test__quote.py,,,passed,,0.00022320798598229885
+sanic/test__quote.py::test_1,sanic.test__quote,test_1,sanic/test__quote.py,,,passed,,0.00030469102784991264
+sanic/test__quote.py::test_2,sanic.test__quote,test_2,sanic/test__quote.py,,,passed,,0.00027337181381881237
+sanic/test__quote.py::test_6,sanic.test__quote,test_6,sanic/test__quote.py,,,passed,,0.0003596530295908451
+sanic/test__quote.py::test_7,sanic.test__quote,test_7,sanic/test__quote.py,,,passed,,0.0002640639431774616
+sanic/test__quote.py::test_8,sanic.test__quote,test_8,sanic/test__quote.py,,,passed,,0.0002664681524038315
+sanic/test__quote.py::test_11,sanic.test__quote,test_11,sanic/test__quote.py,,,passed,,0.0002636339049786329
+sanic/test__quote.py::test_13,sanic.test__quote,test_13,sanic/test__quote.py,,,passed,,0.00027186889201402664

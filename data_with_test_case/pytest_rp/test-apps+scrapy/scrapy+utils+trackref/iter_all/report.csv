@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_iter_all.py::test_59,scrapy.utils.test_iter_all,test_59,scrapy/utils/test_iter_all.py,,,passed,,0.00042372196912765503
+scrapy/utils/test_iter_all.py::test_85,scrapy.utils.test_iter_all,test_85,scrapy/utils/test_iter_all.py,,,passed,,0.00028427201323211193
+scrapy/utils/test_iter_all.py::test_103,scrapy.utils.test_iter_all,test_103,scrapy/utils/test_iter_all.py,,,passed,,0.0003251491580158472

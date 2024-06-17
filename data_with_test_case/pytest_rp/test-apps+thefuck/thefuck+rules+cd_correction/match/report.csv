@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+thefuck/rules/test_match.py::test_34,thefuck.rules.test_match,test_34,thefuck/rules/test_match.py,,,passed,,0.0008153831586241722

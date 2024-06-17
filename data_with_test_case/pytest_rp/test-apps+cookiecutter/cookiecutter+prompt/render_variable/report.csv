@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+cookiecutter/test_render_variable.py::test_59,cookiecutter.test_render_variable,test_59,cookiecutter/test_render_variable.py,,,passed,,0.0005667200312018394
+cookiecutter/test_render_variable.py::test_130,cookiecutter.test_render_variable,test_130,cookiecutter/test_render_variable.py,,,passed,,0.0002352599985897541

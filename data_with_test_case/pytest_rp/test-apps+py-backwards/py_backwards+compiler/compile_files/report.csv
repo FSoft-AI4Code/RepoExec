@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+py_backwards/test_compile_files.py::test_30,py_backwards.test_compile_files,test_30,py_backwards/test_compile_files.py,,,failed,"AssertionError: assert CompilationRe...pendencies=[]) == CompilationRe...pendencies=[])
+  
+  Omitting 2 identical items, use -vv to show
+  Differing attributes:
+  ['files', 'time']
+  
+  Drill down into differing attribute files:
+    files: 58 != 57...
+  
+  ...Full output truncated (4 lines hidden), use '-vv' to show",1.8029877338558435

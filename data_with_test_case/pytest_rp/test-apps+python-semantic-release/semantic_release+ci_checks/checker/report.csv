@@ -1,0 +1,5 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/python-semantic-release/semantic_release/test_checker.py::test_0,input.test-apps.python-semantic-release.semantic_release.test_checker,test_0,input/test-apps/python-semantic-release/semantic_release/test_checker.py,,,passed,,0.0004968601278960705
+input/test-apps/python-semantic-release/semantic_release/test_checker.py::test_5,input.test-apps.python-semantic-release.semantic_release.test_checker,test_5,input/test-apps/python-semantic-release/semantic_release/test_checker.py,,,passed,,0.00022574304603040218
+input/test-apps/python-semantic-release/semantic_release/test_checker.py::test_9,input.test-apps.python-semantic-release.semantic_release.test_checker,test_9,input/test-apps/python-semantic-release/semantic_release/test_checker.py,,,passed,,0.00021621515043079853
+input/test-apps/python-semantic-release/semantic_release/test_checker.py::test_3,input.test-apps.python-semantic-release.semantic_release.test_checker,test_3,input/test-apps/python-semantic-release/semantic_release/test_checker.py,,,passed,,0.0002828300930559635

@@ -1,0 +1,6 @@
+id,module,name,file,doc,markers,status,message,duration
+pytutils/test_tree.py::test_0,pytutils.test_tree,test_0,pytutils/test_tree.py,,,passed,,0.0005394690670073032
+pytutils/test_tree.py::test_3,pytutils.test_tree,test_3,pytutils/test_tree.py,,,passed,,0.00022716517560184002
+pytutils/test_tree.py::test_1,pytutils.test_tree,test_1,pytutils/test_tree.py,,,passed,,0.0003150699194520712
+pytutils/test_tree.py::test_2,pytutils.test_tree,test_2,pytutils/test_tree.py,,,passed,,0.0002598459832370281
+pytutils/test_tree.py::test_4,pytutils.test_tree,test_4,pytutils/test_tree.py,,,passed,,0.00026449491269886494

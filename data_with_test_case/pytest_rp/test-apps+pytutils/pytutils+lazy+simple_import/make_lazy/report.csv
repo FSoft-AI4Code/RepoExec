@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+pytutils/lazy/test_make_lazy.py::test_0,pytutils.lazy.test_make_lazy,test_0,pytutils/lazy/test_make_lazy.py,,,passed,,0.0006260920781642199

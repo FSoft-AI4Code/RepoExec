@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_multi_future.py::test_33,input.test-apps.tornado.tornado.test_multi_future,test_33,input/test-apps/tornado/tornado/test_multi_future.py,,,passed,,0.0012449021451175213
+input/test-apps/tornado/tornado/test_multi_future.py::test_38,input.test-apps.tornado.tornado.test_multi_future,test_38,input/test-apps/tornado/tornado/test_multi_future.py,,,passed,,0.00038231699727475643

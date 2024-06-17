@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test__get_str.py::test_27,luigi.test__get_str,test_27,luigi/test__get_str.py,,,passed,,0.0012413188815116882
+luigi/test__get_str.py::test_59,luigi.test__get_str,test_59,luigi/test__get_str.py,,,passed,,0.00026198080740869045

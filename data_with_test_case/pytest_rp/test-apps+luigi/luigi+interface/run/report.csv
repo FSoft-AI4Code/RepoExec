@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test_run.py::test_20,luigi.test_run,test_20,luigi/test_run.py,,,passed,,0.0005420178640633821
+luigi/test_run.py::test_82,luigi.test_run,test_82,luigi/test_run.py,,,passed,,0.0002398500218987465

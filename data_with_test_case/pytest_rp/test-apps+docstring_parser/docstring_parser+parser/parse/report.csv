@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+docstring_parser/test_parse.py::test_0,docstring_parser.test_parse,test_0,docstring_parser/test_parse.py,,,failed,"AssertionError: assert <docstring_parser.common.Docstring object at 0x7fba7059d8d0> == <docstring_parser.common.Docstring object at 0x7fba7059f430>
+ +  where <docstring_parser.common.Docstring object at 0x7fba7059d8d0> = parse('', style=<Style.rest: 1>)
+ +    where <Style.rest: 1> = Style.rest",0.0012626179959625006

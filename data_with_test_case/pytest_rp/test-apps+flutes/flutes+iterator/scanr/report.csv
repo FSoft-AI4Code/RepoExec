@@ -1,0 +1,17 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/flutes/flutes/test_scanr.py::test_0,input.test-apps.flutes.flutes.test_scanr,test_0,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.0005522440187633038
+input/test-apps/flutes/flutes/test_scanr.py::test_3,input.test-apps.flutes.flutes.test_scanr,test_3,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.000245469156652689
+input/test-apps/flutes/flutes/test_scanr.py::test_4,input.test-apps.flutes.flutes.test_scanr,test_4,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.0002441168762743473
+input/test-apps/flutes/flutes/test_scanr.py::test_6,input.test-apps.flutes.flutes.test_scanr,test_6,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00021552294492721558
+input/test-apps/flutes/flutes/test_scanr.py::test_7,input.test-apps.flutes.flutes.test_scanr,test_7,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00021105492487549782
+input/test-apps/flutes/flutes/test_scanr.py::test_9,input.test-apps.flutes.flutes.test_scanr,test_9,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00022088317200541496
+input/test-apps/flutes/flutes/test_scanr.py::test_21,input.test-apps.flutes.flutes.test_scanr,test_21,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00021267798729240894
+input/test-apps/flutes/flutes/test_scanr.py::test_23,input.test-apps.flutes.flutes.test_scanr,test_23,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00022145500406622887
+input/test-apps/flutes/flutes/test_scanr.py::test_2,input.test-apps.flutes.flutes.test_scanr,test_2,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.0003127860836684704
+input/test-apps/flutes/flutes/test_scanr.py::test_8,input.test-apps.flutes.flutes.test_scanr,test_8,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00025971606373786926
+input/test-apps/flutes/flutes/test_scanr.py::test_12,input.test-apps.flutes.flutes.test_scanr,test_12,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00026093795895576477
+input/test-apps/flutes/flutes/test_scanr.py::test_17,input.test-apps.flutes.flutes.test_scanr,test_17,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00025867391377687454
+input/test-apps/flutes/flutes/test_scanr.py::test_19,input.test-apps.flutes.flutes.test_scanr,test_19,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.0002524619922041893
+input/test-apps/flutes/flutes/test_scanr.py::test_20,input.test-apps.flutes.flutes.test_scanr,test_20,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.00027037598192691803
+input/test-apps/flutes/flutes/test_scanr.py::test_22,input.test-apps.flutes.flutes.test_scanr,test_22,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.0002496871165931225
+input/test-apps/flutes/flutes/test_scanr.py::test_24,input.test-apps.flutes.flutes.test_scanr,test_24,input/test-apps/flutes/flutes/test_scanr.py,,,passed,,0.0002552678342908621

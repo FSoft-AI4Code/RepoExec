@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_spidercls_for_request.py::test_78,scrapy.utils.test_spidercls_for_request,test_78,scrapy/utils/test_spidercls_for_request.py,,,passed,,0.0005993510130792856

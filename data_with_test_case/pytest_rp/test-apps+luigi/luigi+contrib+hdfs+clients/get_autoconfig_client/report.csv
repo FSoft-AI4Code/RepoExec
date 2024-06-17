@@ -1,0 +1,6 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/contrib/hdfs/test_get_autoconfig_client.py::test_5,luigi.contrib.hdfs.test_get_autoconfig_client,test_5,luigi/contrib/hdfs/test_get_autoconfig_client.py,,,passed,,0.0019965958781540394
+luigi/contrib/hdfs/test_get_autoconfig_client.py::test_15,luigi.contrib.hdfs.test_get_autoconfig_client,test_15,luigi/contrib/hdfs/test_get_autoconfig_client.py,,,passed,,0.00048342696391046047
+luigi/contrib/hdfs/test_get_autoconfig_client.py::test_17,luigi.contrib.hdfs.test_get_autoconfig_client,test_17,luigi/contrib/hdfs/test_get_autoconfig_client.py,,,passed,,0.0002533751539885998
+luigi/contrib/hdfs/test_get_autoconfig_client.py::test_0,luigi.contrib.hdfs.test_get_autoconfig_client,test_0,luigi/contrib/hdfs/test_get_autoconfig_client.py,,,passed,,0.00034911511465907097
+luigi/contrib/hdfs/test_get_autoconfig_client.py::test_10,luigi.contrib.hdfs.test_get_autoconfig_client,test_10,luigi/contrib/hdfs/test_get_autoconfig_client.py,,,passed,,0.0002977391704916954

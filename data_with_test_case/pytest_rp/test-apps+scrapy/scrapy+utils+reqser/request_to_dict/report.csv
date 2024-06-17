@@ -1,0 +1,7 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_request_to_dict.py::test_7,scrapy.utils.test_request_to_dict,test_7,scrapy/utils/test_request_to_dict.py,,,passed,,0.006445774110034108
+scrapy/utils/test_request_to_dict.py::test_12,scrapy.utils.test_request_to_dict,test_12,scrapy/utils/test_request_to_dict.py,,,passed,,0.0004988629370927811
+scrapy/utils/test_request_to_dict.py::test_13,scrapy.utils.test_request_to_dict,test_13,scrapy/utils/test_request_to_dict.py,,,passed,,0.00045846705324947834
+scrapy/utils/test_request_to_dict.py::test_15,scrapy.utils.test_request_to_dict,test_15,scrapy/utils/test_request_to_dict.py,,,passed,,0.00040455698035657406
+scrapy/utils/test_request_to_dict.py::test_16,scrapy.utils.test_request_to_dict,test_16,scrapy/utils/test_request_to_dict.py,,,passed,,0.000378006836399436
+scrapy/utils/test_request_to_dict.py::test_17,scrapy.utils.test_request_to_dict,test_17,scrapy/utils/test_request_to_dict.py,,,passed,,0.0003570879343897104

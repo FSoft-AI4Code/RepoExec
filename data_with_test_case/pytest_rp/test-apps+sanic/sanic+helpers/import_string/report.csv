@@ -1,0 +1,13 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_import_string.py::test_29,sanic.test_import_string,test_29,sanic/test_import_string.py,,,passed,,0.0006470908410847187
+sanic/test_import_string.py::test_95,sanic.test_import_string,test_95,sanic/test_import_string.py,,,failed,AttributeError: module 'unittest' has no attribute 'mock',0.00033179111778736115
+sanic/test_import_string.py::test_103,sanic.test_import_string,test_103,sanic/test_import_string.py,,,passed,,0.016540429089218378
+sanic/test_import_string.py::test_121,sanic.test_import_string,test_121,sanic/test_import_string.py,,,passed,,0.0003210210707038641
+sanic/test_import_string.py::test_158,sanic.test_import_string,test_158,sanic/test_import_string.py,,,passed,,0.00028752791695296764
+sanic/test_import_string.py::test_159,sanic.test_import_string,test_159,sanic/test_import_string.py,,,passed,,0.00026329304091632366
+sanic/test_import_string.py::test_166,sanic.test_import_string,test_166,sanic/test_import_string.py,,,passed,,0.0002460500691086054
+sanic/test_import_string.py::test_8,sanic.test_import_string,test_8,sanic/test_import_string.py,,,passed,,0.00033588800579309464
+sanic/test_import_string.py::test_33,sanic.test_import_string,test_33,sanic/test_import_string.py,,,passed,,0.0004703998565673828
+sanic/test_import_string.py::test_39,sanic.test_import_string,test_39,sanic/test_import_string.py,,,passed,,0.00028848997317254543
+sanic/test_import_string.py::test_141,sanic.test_import_string,test_141,sanic/test_import_string.py,,,passed,,0.00033660000190138817
+sanic/test_import_string.py::test_162,sanic.test_import_string,test_162,sanic/test_import_string.py,,,passed,,0.00043686688877642155

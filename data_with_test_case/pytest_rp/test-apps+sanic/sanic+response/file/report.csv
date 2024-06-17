@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_file.py::test_11,sanic.test_file,test_11,sanic/test_file.py,,,passed,,0.0004242339637130499
+sanic/test_file.py::test_4,sanic.test_file,test_4,sanic/test_file.py,,,passed,,0.0003481211606413126

@@ -1,0 +1,5 @@
+id,module,name,file,doc,markers,status,message,duration
+pytutils/test_multiplex.py::test_22,pytutils.test_multiplex,test_22,pytutils/test_multiplex.py,,,passed,,0.001137369079515338
+pytutils/test_multiplex.py::test_24,pytutils.test_multiplex,test_24,pytutils/test_multiplex.py,,,passed,,0.0007445130031555891
+pytutils/test_multiplex.py::test_27,pytutils.test_multiplex,test_27,pytutils/test_multiplex.py,,,passed,,0.0005186100024729967
+pytutils/test_multiplex.py::test_28,pytutils.test_multiplex,test_28,pytutils/test_multiplex.py,,,passed,,0.0008329779375344515

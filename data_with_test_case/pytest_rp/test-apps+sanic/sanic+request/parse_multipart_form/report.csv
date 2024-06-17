@@ -1,0 +1,7 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_parse_multipart_form.py::test_4,sanic.test_parse_multipart_form,test_4,sanic/test_parse_multipart_form.py,,,passed,,0.0006988879758864641
+sanic/test_parse_multipart_form.py::test_6,sanic.test_parse_multipart_form,test_6,sanic/test_parse_multipart_form.py,,,passed,,0.0003301878459751606
+sanic/test_parse_multipart_form.py::test_10,sanic.test_parse_multipart_form,test_10,sanic/test_parse_multipart_form.py,,,passed,,0.0003657939378172159
+sanic/test_parse_multipart_form.py::test_13,sanic.test_parse_multipart_form,test_13,sanic/test_parse_multipart_form.py,,,passed,,0.00037949997931718826
+sanic/test_parse_multipart_form.py::test_15,sanic.test_parse_multipart_form,test_15,sanic/test_parse_multipart_form.py,,,passed,,0.0003007629420608282
+sanic/test_parse_multipart_form.py::test_18,sanic.test_parse_multipart_form,test_18,sanic/test_parse_multipart_form.py,,,passed,,0.00034603686071932316

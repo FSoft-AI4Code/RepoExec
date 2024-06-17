@@ -1,0 +1,17 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_walk_modules.py::test_1,scrapy.utils.test_walk_modules,test_1,scrapy/utils/test_walk_modules.py,,,passed,,0.16591579793021083
+scrapy/utils/test_walk_modules.py::test_2,scrapy.utils.test_walk_modules,test_2,scrapy/utils/test_walk_modules.py,,,passed,,0.0013844401109963655
+scrapy/utils/test_walk_modules.py::test_4,scrapy.utils.test_walk_modules,test_4,scrapy/utils/test_walk_modules.py,,,passed,,0.0002636839635670185
+scrapy/utils/test_walk_modules.py::test_9,scrapy.utils.test_walk_modules,test_9,scrapy/utils/test_walk_modules.py,,,passed,,0.5643694919999689
+scrapy/utils/test_walk_modules.py::test_14,scrapy.utils.test_walk_modules,test_14,scrapy/utils/test_walk_modules.py,,,passed,,0.005854804068803787
+scrapy/utils/test_walk_modules.py::test_15,scrapy.utils.test_walk_modules,test_15,scrapy/utils/test_walk_modules.py,,,passed,,0.00027529499493539333
+scrapy/utils/test_walk_modules.py::test_17,scrapy.utils.test_walk_modules,test_17,scrapy/utils/test_walk_modules.py,,,passed,,0.00027032499201595783
+scrapy/utils/test_walk_modules.py::test_21,scrapy.utils.test_walk_modules,test_21,scrapy/utils/test_walk_modules.py,,,passed,,0.001347281038761139
+scrapy/utils/test_walk_modules.py::test_27,scrapy.utils.test_walk_modules,test_27,scrapy/utils/test_walk_modules.py,,,passed,,0.005515871103852987
+scrapy/utils/test_walk_modules.py::test_30,scrapy.utils.test_walk_modules,test_30,scrapy/utils/test_walk_modules.py,,,passed,,0.0006431029178202152
+scrapy/utils/test_walk_modules.py::test_34,scrapy.utils.test_walk_modules,test_34,scrapy/utils/test_walk_modules.py,,,passed,,0.0002893810160458088
+scrapy/utils/test_walk_modules.py::test_43,scrapy.utils.test_walk_modules,test_43,scrapy/utils/test_walk_modules.py,,,passed,,0.0002569409552961588
+scrapy/utils/test_walk_modules.py::test_45,scrapy.utils.test_walk_modules,test_45,scrapy/utils/test_walk_modules.py,,,passed,,0.0002619698643684387
+scrapy/utils/test_walk_modules.py::test_48,scrapy.utils.test_walk_modules,test_48,scrapy/utils/test_walk_modules.py,,,passed,,0.001370804850012064
+scrapy/utils/test_walk_modules.py::test_49,scrapy.utils.test_walk_modules,test_49,scrapy/utils/test_walk_modules.py,,,passed,,0.0013219630345702171
+scrapy/utils/test_walk_modules.py::test_20,scrapy.utils.test_walk_modules,test_20,scrapy/utils/test_walk_modules.py,,,passed,,0.0007601820398122072

@@ -1,0 +1,8 @@
+id,module,name,file,doc,markers,status,message,duration
+thefuck/specific/test_git_support.py::test_74,thefuck.specific.test_git_support,test_74,thefuck/specific/test_git_support.py,,,passed,,0.0006754600908607244
+thefuck/specific/test_git_support.py::test_94,thefuck.specific.test_git_support,test_94,thefuck/specific/test_git_support.py,,,passed,,0.00029944279231131077
+thefuck/specific/test_git_support.py::test_104,thefuck.specific.test_git_support,test_104,thefuck/specific/test_git_support.py,,,passed,,0.00028385408222675323
+thefuck/specific/test_git_support.py::test_123,thefuck.specific.test_git_support,test_123,thefuck/specific/test_git_support.py,,,passed,,0.00025055091828107834
+thefuck/specific/test_git_support.py::test_138,thefuck.specific.test_git_support,test_138,thefuck/specific/test_git_support.py,,,passed,,0.00024975999258458614
+thefuck/specific/test_git_support.py::test_154,thefuck.specific.test_git_support,test_154,thefuck/specific/test_git_support.py,,,passed,,0.0002500999253243208
+thefuck/specific/test_git_support.py::test_165,thefuck.specific.test_git_support,test_165,thefuck/specific/test_git_support.py,,,passed,,0.00026648095808923244

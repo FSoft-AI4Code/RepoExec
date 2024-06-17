@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/tools/test__get_per_location_glob.py::test_10,luigi.tools.test__get_per_location_glob,test_10,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0013149799779057503
+luigi/tools/test__get_per_location_glob.py::test_15,luigi.tools.test__get_per_location_glob,test_15,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0007393991108983755
+luigi/tools/test__get_per_location_glob.py::test_17,luigi.tools.test__get_per_location_glob,test_17,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0003921168390661478
+luigi/tools/test__get_per_location_glob.py::test_19,luigi.tools.test__get_per_location_glob,test_19,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0005704921204596758
+luigi/tools/test__get_per_location_glob.py::test_29,luigi.tools.test__get_per_location_glob,test_29,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0003606781829148531
+luigi/tools/test__get_per_location_glob.py::test_31,luigi.tools.test__get_per_location_glob,test_31,luigi/tools/test__get_per_location_glob.py,,,passed,,0.00034897495061159134
+luigi/tools/test__get_per_location_glob.py::test_36,luigi.tools.test__get_per_location_glob,test_36,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0010864008218050003
+luigi/tools/test__get_per_location_glob.py::test_38,luigi.tools.test__get_per_location_glob,test_38,luigi/tools/test__get_per_location_glob.py,,,passed,,0.00036720000207424164
+luigi/tools/test__get_per_location_glob.py::test_45,luigi.tools.test__get_per_location_glob,test_45,luigi/tools/test__get_per_location_glob.py,,,passed,,0.0006703389808535576
+luigi/tools/test__get_per_location_glob.py::test_51,luigi.tools.test__get_per_location_glob,test_51,luigi/tools/test__get_per_location_glob.py,,,passed,,0.000704954145476222

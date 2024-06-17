@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test__get_external_workers.py::test_3,luigi.test__get_external_workers,test_3,luigi/test__get_external_workers.py,,,passed,,0.017426481004804373
+luigi/test__get_external_workers.py::test_55,luigi.test__get_external_workers,test_55,luigi/test__get_external_workers.py,,,passed,,0.0020015439949929714
+luigi/test__get_external_workers.py::test_1,luigi.test__get_external_workers,test_1,luigi/test__get_external_workers.py,,,passed,,0.0023719088640064
+luigi/test__get_external_workers.py::test_14,luigi.test__get_external_workers,test_14,luigi/test__get_external_workers.py,,,passed,,0.002516570035368204
+luigi/test__get_external_workers.py::test_27,luigi.test__get_external_workers,test_27,luigi/test__get_external_workers.py,,,passed,,0.001719665015116334
+luigi/test__get_external_workers.py::test_45,luigi.test__get_external_workers,test_45,luigi/test__get_external_workers.py,,,passed,,0.002520427107810974
+luigi/test__get_external_workers.py::test_49,luigi.test__get_external_workers,test_49,luigi/test__get_external_workers.py,,,passed,,0.0017009698785841465
+luigi/test__get_external_workers.py::test_72,luigi.test__get_external_workers,test_72,luigi/test__get_external_workers.py,,,passed,,0.0017588490154594183
+luigi/test__get_external_workers.py::test_91,luigi.test__get_external_workers,test_91,luigi/test__get_external_workers.py,,,passed,,0.001775871030986309
+luigi/test__get_external_workers.py::test_96,luigi.test__get_external_workers,test_96,luigi/test__get_external_workers.py,,,passed,,0.0017668940126895905

@@ -1,0 +1,16 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test__embed_standard_shell.py::test_1,scrapy.utils.test__embed_standard_shell,test_1,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.0031486961524933577
+scrapy/utils/test__embed_standard_shell.py::test_2,scrapy.utils.test__embed_standard_shell,test_2,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.0002562499139457941
+scrapy/utils/test__embed_standard_shell.py::test_4,scrapy.utils.test__embed_standard_shell,test_4,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.0003810538910329342
+scrapy/utils/test__embed_standard_shell.py::test_5,scrapy.utils.test__embed_standard_shell,test_5,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00023635313846170902
+scrapy/utils/test__embed_standard_shell.py::test_6,scrapy.utils.test__embed_standard_shell,test_6,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00024370616301894188
+scrapy/utils/test__embed_standard_shell.py::test_8,scrapy.utils.test__embed_standard_shell,test_8,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00023480993695557117
+scrapy/utils/test__embed_standard_shell.py::test_10,scrapy.utils.test__embed_standard_shell,test_10,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.0002416619099676609
+scrapy/utils/test__embed_standard_shell.py::test_11,scrapy.utils.test__embed_standard_shell,test_11,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00023492006585001945
+scrapy/utils/test__embed_standard_shell.py::test_13,scrapy.utils.test__embed_standard_shell,test_13,scrapy/utils/test__embed_standard_shell.py,,,failed,OSError: pytest: reading from stdin while output is captured!  Consider using `-s`.,0.0006528818048536777
+scrapy/utils/test__embed_standard_shell.py::test_16,scrapy.utils.test__embed_standard_shell,test_16,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00033793295733630657
+scrapy/utils/test__embed_standard_shell.py::test_17,scrapy.utils.test__embed_standard_shell,test_17,scrapy/utils/test__embed_standard_shell.py,,,failed,OSError: pytest: reading from stdin while output is captured!  Consider using `-s`.,0.0006079189479351044
+scrapy/utils/test__embed_standard_shell.py::test_23,scrapy.utils.test__embed_standard_shell,test_23,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00031143403612077236
+scrapy/utils/test__embed_standard_shell.py::test_26,scrapy.utils.test__embed_standard_shell,test_26,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00024364585988223553
+scrapy/utils/test__embed_standard_shell.py::test_31,scrapy.utils.test__embed_standard_shell,test_31,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.000280996086075902
+scrapy/utils/test__embed_standard_shell.py::test_32,scrapy.utils.test__embed_standard_shell,test_32,scrapy/utils/test__embed_standard_shell.py,,,passed,,0.00021520396694540977

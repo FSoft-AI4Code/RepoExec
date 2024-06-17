@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/typesystem/typesystem/tokenize/test_validate_yaml.py::test_31,input.test-apps.typesystem.typesystem.tokenize.test_validate_yaml,test_31,input/test-apps/typesystem/typesystem/tokenize/test_validate_yaml.py,,,passed,,0.0013495469465851784
+input/test-apps/typesystem/typesystem/tokenize/test_validate_yaml.py::test_39,input.test-apps.typesystem.typesystem.tokenize.test_validate_yaml,test_39,input/test-apps/typesystem/typesystem/tokenize/test_validate_yaml.py,,,passed,,0.0006532731931656599

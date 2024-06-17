@@ -1,0 +1,6 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py::test_4,input.test-apps.dataclasses-json.dataclasses_json.test_dataclass_json,test_4,input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py,,,passed,,0.0005599569994956255
+input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py::test_5,input.test-apps.dataclasses-json.dataclasses_json.test_dataclass_json,test_5,input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py,,,passed,,0.00024034990929067135
+input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py::test_0,input.test-apps.dataclasses-json.dataclasses_json.test_dataclass_json,test_0,input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py,,,passed,,0.000309949042275548
+input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py::test_2,input.test-apps.dataclasses-json.dataclasses_json.test_dataclass_json,test_2,input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py,,,passed,,0.0003552150446921587
+input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py::test_3,input.test-apps.dataclasses-json.dataclasses_json.test_dataclass_json,test_3,input/test-apps/dataclasses-json/dataclasses_json/test_dataclass_json.py,,,passed,,0.0002704160287976265

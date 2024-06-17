@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_ssl_wrap_socket.py::test_9,input.test-apps.tornado.tornado.test_ssl_wrap_socket,test_9,input/test-apps/tornado/tornado/test_ssl_wrap_socket.py,,,passed,,0.0014167230110615492
+input/test-apps/tornado/tornado/test_ssl_wrap_socket.py::test_4,input.test-apps.tornado.tornado.test_ssl_wrap_socket,test_4,input/test-apps/tornado/tornado/test_ssl_wrap_socket.py,,,passed,,0.0006564590148627758

@@ -1,0 +1,13 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/pypara/pypara/test_dcc.py::test_2,input.test-apps.pypara.pypara.test_dcc,test_2,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.0005491909105330706
+input/test-apps/pypara/pypara/test_dcc.py::test_5,input.test-apps.pypara.pypara.test_dcc,test_5,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.0002775709144771099
+input/test-apps/pypara/pypara/test_dcc.py::test_13,input.test-apps.pypara.pypara.test_dcc,test_13,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00021095597185194492
+input/test-apps/pypara/pypara/test_dcc.py::test_20,input.test-apps.pypara.pypara.test_dcc,test_20,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00021043489687144756
+input/test-apps/pypara/pypara/test_dcc.py::test_22,input.test-apps.pypara.pypara.test_dcc,test_22,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00021523400209844112
+input/test-apps/pypara/pypara/test_dcc.py::test_23,input.test-apps.pypara.pypara.test_dcc,test_23,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.0002026599831879139
+input/test-apps/pypara/pypara/test_dcc.py::test_26,input.test-apps.pypara.pypara.test_dcc,test_26,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00019996496848762035
+input/test-apps/pypara/pypara/test_dcc.py::test_42,input.test-apps.pypara.pypara.test_dcc,test_42,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00020013609901070595
+input/test-apps/pypara/pypara/test_dcc.py::test_3,input.test-apps.pypara.pypara.test_dcc,test_3,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00029715802520513535
+input/test-apps/pypara/pypara/test_dcc.py::test_4,input.test-apps.pypara.pypara.test_dcc,test_4,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00025146291591227055
+input/test-apps/pypara/pypara/test_dcc.py::test_17,input.test-apps.pypara.pypara.test_dcc,test_17,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00025028991512954235
+input/test-apps/pypara/pypara/test_dcc.py::test_52,input.test-apps.pypara.pypara.test_dcc,test_52,input/test-apps/pypara/pypara/test_dcc.py,,,passed,,0.00024778489023447037

@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test_flatten_output.py::test_56,luigi.test_flatten_output,test_56,luigi/test_flatten_output.py,,,passed,,0.0013191481120884418
+luigi/test_flatten_output.py::test_76,luigi.test_flatten_output,test_76,luigi/test_flatten_output.py,,,passed,,0.0006096248980611563
+luigi/test_flatten_output.py::test_86,luigi.test_flatten_output,test_86,luigi/test_flatten_output.py,,,passed,,0.000332163879647851

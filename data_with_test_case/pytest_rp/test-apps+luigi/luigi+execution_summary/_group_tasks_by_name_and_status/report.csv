@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test__group_tasks_by_name_and_status.py::test_4,luigi.test__group_tasks_by_name_and_status,test_4,luigi/test__group_tasks_by_name_and_status.py,,,passed,,0.0004458350595086813
+luigi/test__group_tasks_by_name_and_status.py::test_47,luigi.test__group_tasks_by_name_and_status,test_47,luigi/test__group_tasks_by_name_and_status.py,,,passed,,0.00025739194825291634

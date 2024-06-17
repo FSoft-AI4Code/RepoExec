@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+cookiecutter/test_get_config.py::test_16,cookiecutter.test_get_config,test_16,cookiecutter/test_get_config.py,,,passed,,0.0005624820478260517

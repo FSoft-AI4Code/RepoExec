@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/docstring_parser/docstring_parser/test_parse.py::test_21,input.test-apps.docstring_parser.docstring_parser.test_parse,test_21,input/test-apps/docstring_parser/docstring_parser/test_parse.py,,,passed,,0.0011430950835347176

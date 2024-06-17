@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/contrib/test_parse_results.py::test_50,luigi.contrib.test_parse_results,test_50,luigi/contrib/test_parse_results.py,,,passed,,0.0005863490514457226
+luigi/contrib/test_parse_results.py::test_52,luigi.contrib.test_parse_results,test_52,luigi/contrib/test_parse_results.py,,,passed,,0.0002907048910856247
+luigi/contrib/test_parse_results.py::test_54,luigi.contrib.test_parse_results,test_54,luigi/contrib/test_parse_results.py,,,passed,,0.00023801601491868496
+luigi/contrib/test_parse_results.py::test_78,luigi.contrib.test_parse_results,test_78,luigi/contrib/test_parse_results.py,,,passed,,0.0002579540014266968
+luigi/contrib/test_parse_results.py::test_94,luigi.contrib.test_parse_results,test_94,luigi/contrib/test_parse_results.py,,,passed,,0.00025547901168465614
+luigi/contrib/test_parse_results.py::test_16,luigi.contrib.test_parse_results,test_16,luigi/contrib/test_parse_results.py,,,passed,,0.0003462890163064003
+luigi/contrib/test_parse_results.py::test_21,luigi.contrib.test_parse_results,test_21,luigi/contrib/test_parse_results.py,,,passed,,0.0002960548736155033
+luigi/contrib/test_parse_results.py::test_43,luigi.contrib.test_parse_results,test_43,luigi/contrib/test_parse_results.py,,,passed,,0.0002861260436475277
+luigi/contrib/test_parse_results.py::test_60,luigi.contrib.test_parse_results,test_60,luigi/contrib/test_parse_results.py,,,passed,,0.00029529398307204247
+luigi/contrib/test_parse_results.py::test_73,luigi.contrib.test_parse_results,test_73,luigi/contrib/test_parse_results.py,,,passed,,0.00030116504058241844

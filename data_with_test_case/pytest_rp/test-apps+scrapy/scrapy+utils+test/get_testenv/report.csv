@@ -1,0 +1,14 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_get_testenv.py::test_1,scrapy.utils.test_get_testenv,test_1,scrapy/utils/test_get_testenv.py,,,passed,,0.0008737151511013508
+scrapy/utils/test_get_testenv.py::test_2,scrapy.utils.test_get_testenv,test_2,scrapy/utils/test_get_testenv.py,,,passed,,0.00036353012546896935
+scrapy/utils/test_get_testenv.py::test_3,scrapy.utils.test_get_testenv,test_3,scrapy/utils/test_get_testenv.py,,,passed,,0.0003740699030458927
+scrapy/utils/test_get_testenv.py::test_4,scrapy.utils.test_get_testenv,test_4,scrapy/utils/test_get_testenv.py,,,passed,,0.00036486308090388775
+scrapy/utils/test_get_testenv.py::test_6,scrapy.utils.test_get_testenv,test_6,scrapy/utils/test_get_testenv.py,,,passed,,0.0003549838438630104
+scrapy/utils/test_get_testenv.py::test_7,scrapy.utils.test_get_testenv,test_7,scrapy/utils/test_get_testenv.py,,,passed,,0.0004257671535015106
+scrapy/utils/test_get_testenv.py::test_9,scrapy.utils.test_get_testenv,test_9,scrapy/utils/test_get_testenv.py,,,passed,,0.0004878430627286434
+scrapy/utils/test_get_testenv.py::test_11,scrapy.utils.test_get_testenv,test_11,scrapy/utils/test_get_testenv.py,,,passed,,0.00038676406256854534
+scrapy/utils/test_get_testenv.py::test_12,scrapy.utils.test_get_testenv,test_12,scrapy/utils/test_get_testenv.py,,,passed,,0.0004386110231280327
+scrapy/utils/test_get_testenv.py::test_13,scrapy.utils.test_get_testenv,test_13,scrapy/utils/test_get_testenv.py,,,passed,,0.00034867203794419765
+scrapy/utils/test_get_testenv.py::test_14,scrapy.utils.test_get_testenv,test_14,scrapy/utils/test_get_testenv.py,,,passed,,0.0003350269980728626
+scrapy/utils/test_get_testenv.py::test_10,scrapy.utils.test_get_testenv,test_10,scrapy/utils/test_get_testenv.py,,,passed,,0.00043648690916597843
+scrapy/utils/test_get_testenv.py::test_16,scrapy.utils.test_get_testenv,test_16,scrapy/utils/test_get_testenv.py,,,passed,,0.00039788405410945415

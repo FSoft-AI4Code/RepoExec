@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_multi.py::test_54,input.test-apps.tornado.tornado.test_multi,test_54,input/test-apps/tornado/tornado/test_multi.py,,,passed,,0.5030747060663998

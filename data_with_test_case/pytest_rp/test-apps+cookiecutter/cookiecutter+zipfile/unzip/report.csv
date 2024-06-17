@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+cookiecutter/test_unzip.py::test_7,cookiecutter.test_unzip,test_7,cookiecutter/test_unzip.py,,,failed,"AssertionError: assert '/tmp/tmpjxwb5ngf/cookiecutter-pypackage-master' == '/tmp/tmpn_nyisbk/cookiecutter-pypackage-master'
+  - /tmp/tmpn_nyisbk/cookiecutter-pypackage-master
+  ?          ^^^^^^^
+  + /tmp/tmpjxwb5ngf/cookiecutter-pypackage-master
+  ?         +++++ ^^",1.2405245169065893
+cookiecutter/test_unzip.py::test_19,cookiecutter.test_unzip,test_19,cookiecutter/test_unzip.py,,,failed,"AssertionError: assert '/tmp/tmp2mgnlbz4/cookiecutter-pypackage-master' == '/tmp/tmplqlhe8nz/cookiecutter-pypackage-master'
+  - /tmp/tmplqlhe8nz/cookiecutter-pypackage-master
+  ?          ^^^^^^
+  + /tmp/tmp2mgnlbz4/cookiecutter-pypackage-master
+  ?         ++++ ^ +",0.3495036060921848

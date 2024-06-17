@@ -1,0 +1,17 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_mock_google_cloud_storage.py::test_0,scrapy.utils.test_mock_google_cloud_storage,test_0,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.5674663509707898
+scrapy/utils/test_mock_google_cloud_storage.py::test_1,scrapy.utils.test_mock_google_cloud_storage,test_1,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12540327897295356
+scrapy/utils/test_mock_google_cloud_storage.py::test_2,scrapy.utils.test_mock_google_cloud_storage,test_2,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12483933311887085
+scrapy/utils/test_mock_google_cloud_storage.py::test_4,scrapy.utils.test_mock_google_cloud_storage,test_4,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12340121204033494
+scrapy/utils/test_mock_google_cloud_storage.py::test_6,scrapy.utils.test_mock_google_cloud_storage,test_6,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.22641188907437027
+scrapy/utils/test_mock_google_cloud_storage.py::test_7,scrapy.utils.test_mock_google_cloud_storage,test_7,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12284765602089465
+scrapy/utils/test_mock_google_cloud_storage.py::test_9,scrapy.utils.test_mock_google_cloud_storage,test_9,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12177683203481138
+scrapy/utils/test_mock_google_cloud_storage.py::test_10,scrapy.utils.test_mock_google_cloud_storage,test_10,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.1297976761125028
+scrapy/utils/test_mock_google_cloud_storage.py::test_12,scrapy.utils.test_mock_google_cloud_storage,test_12,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12356449686922133
+scrapy/utils/test_mock_google_cloud_storage.py::test_13,scrapy.utils.test_mock_google_cloud_storage,test_13,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.123420056886971
+scrapy/utils/test_mock_google_cloud_storage.py::test_14,scrapy.utils.test_mock_google_cloud_storage,test_14,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.2512153920251876
+scrapy/utils/test_mock_google_cloud_storage.py::test_16,scrapy.utils.test_mock_google_cloud_storage,test_16,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.11944626201875508
+scrapy/utils/test_mock_google_cloud_storage.py::test_19,scrapy.utils.test_mock_google_cloud_storage,test_19,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.11964917206205428
+scrapy/utils/test_mock_google_cloud_storage.py::test_3,scrapy.utils.test_mock_google_cloud_storage,test_3,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.11949877999722958
+scrapy/utils/test_mock_google_cloud_storage.py::test_15,scrapy.utils.test_mock_google_cloud_storage,test_15,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.11990975891239941
+scrapy/utils/test_mock_google_cloud_storage.py::test_17,scrapy.utils.test_mock_google_cloud_storage,test_17,scrapy/utils/test_mock_google_cloud_storage.py,,,passed,,0.12009998504072428

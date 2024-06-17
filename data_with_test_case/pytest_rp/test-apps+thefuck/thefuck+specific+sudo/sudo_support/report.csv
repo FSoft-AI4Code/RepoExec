@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/thefuck/thefuck/specific/test_sudo_support.py::test_60,input.test-apps.thefuck.thefuck.specific.test_sudo_support,test_60,input/test-apps/thefuck/thefuck/specific/test_sudo_support.py,,,passed,,0.000729170860722661
+input/test-apps/thefuck/thefuck/specific/test_sudo_support.py::test_136,input.test-apps.thefuck.thefuck.specific.test_sudo_support,test_136,input/test-apps/thefuck/thefuck/specific/test_sudo_support.py,,,passed,,0.0003459709696471691

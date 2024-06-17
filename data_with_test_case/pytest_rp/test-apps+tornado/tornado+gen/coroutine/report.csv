@@ -1,0 +1,13 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_coroutine.py::test_7,input.test-apps.tornado.tornado.test_coroutine,test_7,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.0058427678886801004
+input/test-apps/tornado/tornado/test_coroutine.py::test_13,input.test-apps.tornado.tornado.test_coroutine,test_13,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.000403406098484993
+input/test-apps/tornado/tornado/test_coroutine.py::test_23,input.test-apps.tornado.tornado.test_coroutine,test_23,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.0003662058152258396
+input/test-apps/tornado/tornado/test_coroutine.py::test_26,input.test-apps.tornado.tornado.test_coroutine,test_26,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.00024572107940912247
+input/test-apps/tornado/tornado/test_coroutine.py::test_27,input.test-apps.tornado.tornado.test_coroutine,test_27,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.00034433486871421337
+input/test-apps/tornado/tornado/test_coroutine.py::test_32,input.test-apps.tornado.tornado.test_coroutine,test_32,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.000266198068857193
+input/test-apps/tornado/tornado/test_coroutine.py::test_33,input.test-apps.tornado.tornado.test_coroutine,test_33,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.0002572920639067888
+input/test-apps/tornado/tornado/test_coroutine.py::test_34,input.test-apps.tornado.tornado.test_coroutine,test_34,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.00021294900216162205
+input/test-apps/tornado/tornado/test_coroutine.py::test_44,input.test-apps.tornado.tornado.test_coroutine,test_44,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.00034967600367963314
+input/test-apps/tornado/tornado/test_coroutine.py::test_4,input.test-apps.tornado.tornado.test_coroutine,test_4,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.00031993002630770206
+input/test-apps/tornado/tornado/test_coroutine.py::test_10,input.test-apps.tornado.tornado.test_coroutine,test_10,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.0002900129184126854
+input/test-apps/tornado/tornado/test_coroutine.py::test_39,input.test-apps.tornado.tornado.test_coroutine,test_39,input/test-apps/tornado/tornado/test_coroutine.py,,,passed,,0.00028912187553942204

@@ -1,0 +1,7 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_inthread.py::test_2,scrapy.utils.test_inthread,test_2,scrapy/utils/test_inthread.py,,,failed,AssertionError,0.002672710921615362
+scrapy/utils/test_inthread.py::test_3,scrapy.utils.test_inthread,test_3,scrapy/utils/test_inthread.py,,,failed,AssertionError,0.00036833900958299637
+scrapy/utils/test_inthread.py::test_6,scrapy.utils.test_inthread,test_6,scrapy/utils/test_inthread.py,,,failed,AssertionError,0.00034810113720595837
+scrapy/utils/test_inthread.py::test_20,scrapy.utils.test_inthread,test_20,scrapy/utils/test_inthread.py,,,failed,AssertionError,0.00034610810689628124
+scrapy/utils/test_inthread.py::test_23,scrapy.utils.test_inthread,test_23,scrapy/utils/test_inthread.py,,,failed,AssertionError,0.000350424787029624
+scrapy/utils/test_inthread.py::test_24,scrapy.utils.test_inthread,test_24,scrapy/utils/test_inthread.py,,,failed,AssertionError,0.0003637599293142557

@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_is_botocore.py::test_1,scrapy.utils.test_is_botocore,test_1,scrapy/utils/test_is_botocore.py,,,passed,,0.0015390000771731138
+scrapy/utils/test_is_botocore.py::test_3,scrapy.utils.test_is_botocore,test_3,scrapy/utils/test_is_botocore.py,,,passed,,0.0002751750871539116
+scrapy/utils/test_is_botocore.py::test_6,scrapy.utils.test_is_botocore,test_6,scrapy/utils/test_is_botocore.py,,,passed,,0.0002505490556359291
+scrapy/utils/test_is_botocore.py::test_9,scrapy.utils.test_is_botocore,test_9,scrapy/utils/test_is_botocore.py,,,passed,,0.00024693203158676624
+scrapy/utils/test_is_botocore.py::test_10,scrapy.utils.test_is_botocore,test_10,scrapy/utils/test_is_botocore.py,,,passed,,0.00024906592443585396
+scrapy/utils/test_is_botocore.py::test_11,scrapy.utils.test_is_botocore,test_11,scrapy/utils/test_is_botocore.py,,,passed,,0.00024785404093563557
+scrapy/utils/test_is_botocore.py::test_12,scrapy.utils.test_is_botocore,test_12,scrapy/utils/test_is_botocore.py,,,passed,,0.0002447180449962616
+scrapy/utils/test_is_botocore.py::test_13,scrapy.utils.test_is_botocore,test_13,scrapy/utils/test_is_botocore.py,,,passed,,0.0002527430187910795
+scrapy/utils/test_is_botocore.py::test_0,scrapy.utils.test_is_botocore,test_0,scrapy/utils/test_is_botocore.py,,,passed,,0.0003923238255083561
+scrapy/utils/test_is_botocore.py::test_4,scrapy.utils.test_is_botocore,test_4,scrapy/utils/test_is_botocore.py,,,passed,,0.00028995308093726635

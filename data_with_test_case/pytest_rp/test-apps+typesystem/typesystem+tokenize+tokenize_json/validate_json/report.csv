@@ -1,0 +1,7 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py::test_4,input.test-apps.typesystem.typesystem.tokenize.test_validate_json,test_4,input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py,,,passed,,0.0006077580619603395
+input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py::test_7,input.test-apps.typesystem.typesystem.tokenize.test_validate_json,test_7,input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py,,,passed,,0.00043883221223950386
+input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py::test_14,input.test-apps.typesystem.typesystem.tokenize.test_validate_json,test_14,input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py,,,passed,,0.0003681899979710579
+input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py::test_18,input.test-apps.typesystem.typesystem.tokenize.test_validate_json,test_18,input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py,,,passed,,0.00037645408883690834
+input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py::test_21,input.test-apps.typesystem.typesystem.tokenize.test_validate_json,test_21,input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py,,,passed,,0.00034071807749569416
+input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py::test_22,input.test-apps.typesystem.typesystem.tokenize.test_validate_json,test_22,input/test-apps/typesystem/typesystem/tokenize/test_validate_json.py,,,passed,,0.0003372619394212961

@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_add_status_code.py::test_0,sanic.test_add_status_code,test_0,sanic/test_add_status_code.py,,,passed,,0.00045404001139104366

@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test_externalize.py::test_19,luigi.test_externalize,test_19,luigi/test_externalize.py,,,passed,,0.0007461430504918098
+luigi/test_externalize.py::test_29,luigi.test_externalize,test_29,luigi/test_externalize.py,,,passed,,0.0009332140907645226
+luigi/test_externalize.py::test_48,luigi.test_externalize,test_48,luigi/test_externalize.py,,,passed,,0.00034856400452554226

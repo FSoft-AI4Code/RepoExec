@@ -1,0 +1,12 @@
+id,module,name,file,doc,markers,status,message,duration
+cookiecutter/test_configure_logger.py::test_0,cookiecutter.test_configure_logger,test_0,cookiecutter/test_configure_logger.py,,,passed,,0.0007919410709291697
+cookiecutter/test_configure_logger.py::test_7,cookiecutter.test_configure_logger,test_7,cookiecutter/test_configure_logger.py,,,passed,,0.0004046668764203787
+cookiecutter/test_configure_logger.py::test_10,cookiecutter.test_configure_logger,test_10,cookiecutter/test_configure_logger.py,,,passed,,0.00030357809737324715
+cookiecutter/test_configure_logger.py::test_1,cookiecutter.test_configure_logger,test_1,cookiecutter/test_configure_logger.py,,,passed,,0.00041648908518254757
+cookiecutter/test_configure_logger.py::test_2,cookiecutter.test_configure_logger,test_2,cookiecutter/test_configure_logger.py,,,passed,,0.0003769949544221163
+cookiecutter/test_configure_logger.py::test_4,cookiecutter.test_configure_logger,test_4,cookiecutter/test_configure_logger.py,,,passed,,0.0003205901011824608
+cookiecutter/test_configure_logger.py::test_5,cookiecutter.test_configure_logger,test_5,cookiecutter/test_configure_logger.py,,,passed,,0.00028920103795826435
+cookiecutter/test_configure_logger.py::test_6,cookiecutter.test_configure_logger,test_6,cookiecutter/test_configure_logger.py,,,passed,,0.00037056300789117813
+cookiecutter/test_configure_logger.py::test_9,cookiecutter.test_configure_logger,test_9,cookiecutter/test_configure_logger.py,,,passed,,0.000371305039152503
+cookiecutter/test_configure_logger.py::test_11,cookiecutter.test_configure_logger,test_11,cookiecutter/test_configure_logger.py,,,passed,,0.0003170629497617483
+cookiecutter/test_configure_logger.py::test_12,cookiecutter.test_configure_logger,test_12,cookiecutter/test_configure_logger.py,,,passed,,0.00030809594318270683

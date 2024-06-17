@@ -1,0 +1,10 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_0,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_0,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0014757069293409586
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_2,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_2,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0005855681374669075
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_5,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_5,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0005189841613173485
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_6,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_6,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0004902689252048731
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_8,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_8,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0006827099714428186
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_10,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_10,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0004972720053046942
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_11,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_11,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.00046648411080241203
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_12,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_12,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0005665221251547337
+luigi/contrib/hdfs/test_get_configured_hdfs_client.py::test_3,luigi.contrib.hdfs.test_get_configured_hdfs_client,test_3,luigi/contrib/hdfs/test_get_configured_hdfs_client.py,,,passed,,0.0005642480682581663

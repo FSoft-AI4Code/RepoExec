@@ -1,0 +1,14 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_2,input.test-apps.pypara.pypara.commons.test_makeguid,test_2,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.000437792856246233
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_3,input.test-apps.pypara.pypara.commons.test_makeguid,test_3,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.00029465300031006336
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_4,input.test-apps.pypara.pypara.commons.test_makeguid,test_4,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.00026152096688747406
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_8,input.test-apps.pypara.pypara.commons.test_makeguid,test_8,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.0002389389555901289
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_9,input.test-apps.pypara.pypara.commons.test_makeguid,test_9,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.00028783013112843037
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_12,input.test-apps.pypara.pypara.commons.test_makeguid,test_12,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.0002267661038786173
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_18,input.test-apps.pypara.pypara.commons.test_makeguid,test_18,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.00023314799182116985
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_1,input.test-apps.pypara.pypara.commons.test_makeguid,test_1,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.0002793550956994295
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_5,input.test-apps.pypara.pypara.commons.test_makeguid,test_5,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.0002595679834485054
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_7,input.test-apps.pypara.pypara.commons.test_makeguid,test_7,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.0002621118910610676
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_10,input.test-apps.pypara.pypara.commons.test_makeguid,test_10,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.00026241294108331203
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_11,input.test-apps.pypara.pypara.commons.test_makeguid,test_11,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.0002683238126337528
+input/test-apps/pypara/pypara/commons/test_makeguid.py::test_15,input.test-apps.pypara.pypara.commons.test_makeguid,test_15,input/test-apps/pypara/pypara/commons/test_makeguid.py,,,passed,,0.00026248302310705185

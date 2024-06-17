@@ -1,0 +1,8 @@
+id,module,name,file,doc,markers,status,message,duration
+pytutils/test_accumulate.py::test_2,pytutils.test_accumulate,test_2,pytutils/test_accumulate.py,,,passed,,0.0005206950008869171
+pytutils/test_accumulate.py::test_4,pytutils.test_accumulate,test_4,pytutils/test_accumulate.py,,,passed,,0.00023597199469804764
+pytutils/test_accumulate.py::test_5,pytutils.test_accumulate,test_5,pytutils/test_accumulate.py,,,passed,,0.00021211686544120312
+pytutils/test_accumulate.py::test_0,pytutils.test_accumulate,test_0,pytutils/test_accumulate.py,,,passed,,0.0002903328277170658
+pytutils/test_accumulate.py::test_1,pytutils.test_accumulate,test_1,pytutils/test_accumulate.py,,,passed,,0.00025626993738114834
+pytutils/test_accumulate.py::test_3,pytutils.test_accumulate,test_3,pytutils/test_accumulate.py,,,passed,,0.00024406705051660538
+pytutils/test_accumulate.py::test_6,pytutils.test_accumulate,test_6,pytutils/test_accumulate.py,,,passed,,0.0002443268895149231

@@ -1,0 +1,17 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_2,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_2,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.001511540962383151
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_4,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_4,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00047162617556750774
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_6,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_6,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00043950509279966354
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_7,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_7,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0004260709974914789
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_10,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_10,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0004338049329817295
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_11,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_11,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0005575069226324558
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_12,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_12,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00042006908915936947
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_13,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_13,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0004140480887144804
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_14,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_14,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0003975972067564726
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_17,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_17,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0004314710386097431
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_18,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_18,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00041032093577086926
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_19,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_19,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00039605400525033474
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_20,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_20,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00039573293179273605
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_0,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_0,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0004931669682264328
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_1,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_1,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.0004387549124658108
+luigi/contrib/hdfs/test_get_configured_hadoop_version.py::test_15,luigi.contrib.hdfs.test_get_configured_hadoop_version,test_15,luigi/contrib/hdfs/test_get_configured_hadoop_version.py,,,passed,,0.00044264085590839386

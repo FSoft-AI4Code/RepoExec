@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+pypara/accounting/test_build_general_ledger.py::test_12,pypara.accounting.test_build_general_ledger,test_12,pypara/accounting/test_build_general_ledger.py,,,passed,,0.0006024220492690802

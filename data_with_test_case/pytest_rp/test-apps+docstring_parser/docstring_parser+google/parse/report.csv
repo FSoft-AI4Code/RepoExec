@@ -1,0 +1,6 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/docstring_parser/docstring_parser/test_parse.py::test_2,input.test-apps.docstring_parser.docstring_parser.test_parse,test_2,input/test-apps/docstring_parser/docstring_parser/test_parse.py,,,passed,,0.0005157950799912214
+input/test-apps/docstring_parser/docstring_parser/test_parse.py::test_3,input.test-apps.docstring_parser.docstring_parser.test_parse,test_3,input/test-apps/docstring_parser/docstring_parser/test_parse.py,,,passed,,0.0013876371085643768
+input/test-apps/docstring_parser/docstring_parser/test_parse.py::test_4,input.test-apps.docstring_parser.docstring_parser.test_parse,test_4,input/test-apps/docstring_parser/docstring_parser/test_parse.py,,,passed,,0.0002536249812692404
+input/test-apps/docstring_parser/docstring_parser/test_parse.py::test_5,input.test-apps.docstring_parser.docstring_parser.test_parse,test_5,input/test-apps/docstring_parser/docstring_parser/test_parse.py,,,passed,,0.0002176668494939804
+input/test-apps/docstring_parser/docstring_parser/test_parse.py::test_13,input.test-apps.docstring_parser.docstring_parser.test_parse,test_13,input/test-apps/docstring_parser/docstring_parser/test_parse.py,,,passed,,0.00021788780577480793

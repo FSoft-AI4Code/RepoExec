@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+pytutils/test_ensure_decoded_text.py::test_0,pytutils.test_ensure_decoded_text,test_0,pytutils/test_ensure_decoded_text.py,,,passed,,0.0006437350530177355
+pytutils/test_ensure_decoded_text.py::test_2,pytutils.test_ensure_decoded_text,test_2,pytutils/test_ensure_decoded_text.py,,,passed,,0.0002928879112005234

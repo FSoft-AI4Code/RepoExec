@@ -1,0 +1,8 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_gunzip.py::test_48,scrapy.utils.test_gunzip,test_48,scrapy/utils/test_gunzip.py,,,passed,,0.000633677002042532
+scrapy/utils/test_gunzip.py::test_2,scrapy.utils.test_gunzip,test_2,scrapy/utils/test_gunzip.py,,,passed,,0.0004153191111981869
+scrapy/utils/test_gunzip.py::test_15,scrapy.utils.test_gunzip,test_15,scrapy/utils/test_gunzip.py,,,passed,,0.00040470901876688004
+scrapy/utils/test_gunzip.py::test_34,scrapy.utils.test_gunzip,test_34,scrapy/utils/test_gunzip.py,,,passed,,0.00039876694791018963
+scrapy/utils/test_gunzip.py::test_47,scrapy.utils.test_gunzip,test_47,scrapy/utils/test_gunzip.py,,,passed,,0.00035180896520614624
+scrapy/utils/test_gunzip.py::test_52,scrapy.utils.test_gunzip,test_52,scrapy/utils/test_gunzip.py,,,passed,,0.00035786000080406666
+scrapy/utils/test_gunzip.py::test_54,scrapy.utils.test_gunzip,test_54,scrapy/utils/test_gunzip.py,,,passed,,0.0003749518655240536

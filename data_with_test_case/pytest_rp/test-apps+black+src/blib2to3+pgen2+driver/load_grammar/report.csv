@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/black/src/blib2to3/pgen2/test_load_grammar.py::test_1,input.test-apps.black.src.blib2to3.pgen2.test_load_grammar,test_1,input/test-apps/black/src/blib2to3/pgen2/test_load_grammar.py,,,passed,,0.0005746150854974985

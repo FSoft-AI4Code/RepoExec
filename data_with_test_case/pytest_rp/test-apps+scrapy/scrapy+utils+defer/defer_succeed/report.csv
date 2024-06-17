@@ -1,0 +1,3 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_defer_succeed.py::test_1,scrapy.utils.test_defer_succeed,test_1,scrapy/utils/test_defer_succeed.py,,,passed,,0.0025272099301218987
+scrapy/utils/test_defer_succeed.py::test_16,scrapy.utils.test_defer_succeed,test_16,scrapy/utils/test_defer_succeed.py,,,passed,,0.0003870551008731127

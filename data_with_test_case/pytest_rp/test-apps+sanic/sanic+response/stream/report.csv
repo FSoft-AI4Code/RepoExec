@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_stream.py::test_0,sanic.test_stream,test_0,sanic/test_stream.py,,,passed,,0.0004606219008564949
+sanic/test_stream.py::test_1,sanic.test_stream,test_1,sanic/test_stream.py,,,passed,,0.00023612217046320438
+sanic/test_stream.py::test_2,sanic.test_stream,test_2,sanic/test_stream.py,,,passed,,0.00023689307272434235

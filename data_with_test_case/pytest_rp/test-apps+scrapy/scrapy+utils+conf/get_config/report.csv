@@ -1,0 +1,13 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_get_config.py::test_2,scrapy.utils.test_get_config,test_2,scrapy/utils/test_get_config.py,,,passed,,0.0009433871600776911
+scrapy/utils/test_get_config.py::test_6,scrapy.utils.test_get_config,test_6,scrapy/utils/test_get_config.py,,,passed,,0.0005005679558962584
+scrapy/utils/test_get_config.py::test_7,scrapy.utils.test_get_config,test_7,scrapy/utils/test_get_config.py,,,passed,,0.0004970908630639315
+scrapy/utils/test_get_config.py::test_10,scrapy.utils.test_get_config,test_10,scrapy/utils/test_get_config.py,,,passed,,0.00048273405991494656
+scrapy/utils/test_get_config.py::test_13,scrapy.utils.test_get_config,test_13,scrapy/utils/test_get_config.py,,,passed,,0.00046300794929265976
+scrapy/utils/test_get_config.py::test_14,scrapy.utils.test_get_config,test_14,scrapy/utils/test_get_config.py,,,passed,,0.0004652820061892271
+scrapy/utils/test_get_config.py::test_1,scrapy.utils.test_get_config,test_1,scrapy/utils/test_get_config.py,,,passed,,0.0012878531124442816
+scrapy/utils/test_get_config.py::test_3,scrapy.utils.test_get_config,test_3,scrapy/utils/test_get_config.py,,,passed,,0.0005060678813606501
+scrapy/utils/test_get_config.py::test_4,scrapy.utils.test_get_config,test_4,scrapy/utils/test_get_config.py,,,passed,,0.0005400418303906918
+scrapy/utils/test_get_config.py::test_8,scrapy.utils.test_get_config,test_8,scrapy/utils/test_get_config.py,,,passed,,0.000581549946218729
+scrapy/utils/test_get_config.py::test_9,scrapy.utils.test_get_config,test_9,scrapy/utils/test_get_config.py,,,passed,,0.0004851389676332474
+scrapy/utils/test_get_config.py::test_12,scrapy.utils.test_get_config,test_12,scrapy/utils/test_get_config.py,,,passed,,0.0005603211466223001

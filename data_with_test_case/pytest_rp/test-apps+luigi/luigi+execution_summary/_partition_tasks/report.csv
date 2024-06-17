@@ -1,0 +1,5 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test__partition_tasks.py::test_16,luigi.test__partition_tasks,test_16,luigi/test__partition_tasks.py,,,passed,,0.017206568969413638
+luigi/test__partition_tasks.py::test_27,luigi.test__partition_tasks,test_27,luigi/test__partition_tasks.py,,,passed,,0.0028467769734561443
+luigi/test__partition_tasks.py::test_5,luigi.test__partition_tasks,test_5,luigi/test__partition_tasks.py,,,passed,,0.0026486259885132313
+luigi/test__partition_tasks.py::test_19,luigi.test__partition_tasks,test_19,luigi/test__partition_tasks.py,,,passed,,0.002041185973212123

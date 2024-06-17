@@ -1,0 +1,10 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_send_catch_log_deferred.py::test_0,scrapy.utils.test_send_catch_log_deferred,test_0,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.0008862281683832407
+scrapy/utils/test_send_catch_log_deferred.py::test_3,scrapy.utils.test_send_catch_log_deferred,test_3,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.0005405810661613941
+scrapy/utils/test_send_catch_log_deferred.py::test_11,scrapy.utils.test_send_catch_log_deferred,test_11,scrapy/utils/test_send_catch_log_deferred.py,,,failed,twisted.python.failure.NoCurrentExceptionError,0.0003846490290015936
+scrapy/utils/test_send_catch_log_deferred.py::test_15,scrapy.utils.test_send_catch_log_deferred,test_15,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.0005484470166265965
+scrapy/utils/test_send_catch_log_deferred.py::test_16,scrapy.utils.test_send_catch_log_deferred,test_16,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.0004476369358599186
+scrapy/utils/test_send_catch_log_deferred.py::test_17,scrapy.utils.test_send_catch_log_deferred,test_17,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.0004088550340384245
+scrapy/utils/test_send_catch_log_deferred.py::test_18,scrapy.utils.test_send_catch_log_deferred,test_18,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.00039269495755434036
+scrapy/utils/test_send_catch_log_deferred.py::test_19,scrapy.utils.test_send_catch_log_deferred,test_19,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.00038556219078600407
+scrapy/utils/test_send_catch_log_deferred.py::test_21,scrapy.utils.test_send_catch_log_deferred,test_21,scrapy/utils/test_send_catch_log_deferred.py,,,failed,AssertionError,0.0003736990038305521

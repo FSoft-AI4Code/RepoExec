@@ -1,0 +1,11 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_0,input.test-apps.tornado.tornado.test_websocket_connect,test_0,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.0005592771340161562
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_4,input.test-apps.tornado.tornado.test_websocket_connect,test_4,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00025365501642227173
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_9,input.test-apps.tornado.tornado.test_websocket_connect,test_9,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00021727709099650383
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_16,input.test-apps.tornado.tornado.test_websocket_connect,test_16,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00022379891015589237
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_22,input.test-apps.tornado.tornado.test_websocket_connect,test_22,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00022075301967561245
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_23,input.test-apps.tornado.tornado.test_websocket_connect,test_23,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00021589407697319984
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_27,input.test-apps.tornado.tornado.test_websocket_connect,test_27,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00021390989422798157
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_28,input.test-apps.tornado.tornado.test_websocket_connect,test_28,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00021305796690285206
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_32,input.test-apps.tornado.tornado.test_websocket_connect,test_32,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00023709400556981564
+input/test-apps/tornado/tornado/test_websocket_connect.py::test_29,input.test-apps.tornado.tornado.test_websocket_connect,test_29,input/test-apps/tornado/tornado/test_websocket_connect.py,,,passed,,0.00029324903152883053

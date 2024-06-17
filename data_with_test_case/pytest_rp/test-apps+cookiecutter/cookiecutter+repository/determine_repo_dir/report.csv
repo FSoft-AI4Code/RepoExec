@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+cookiecutter/test_determine_repo_dir.py::test_15,cookiecutter.test_determine_repo_dir,test_15,cookiecutter/test_determine_repo_dir.py,,,passed,,0.0006046819034963846
+cookiecutter/test_determine_repo_dir.py::test_67,cookiecutter.test_determine_repo_dir,test_67,cookiecutter/test_determine_repo_dir.py,,,passed,,0.00031132297590374947
+cookiecutter/test_determine_repo_dir.py::test_24,cookiecutter.test_determine_repo_dir,test_24,cookiecutter/test_determine_repo_dir.py,,,passed,,0.0003698419313877821

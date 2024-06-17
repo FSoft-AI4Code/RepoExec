@@ -1,0 +1,4 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/tornado/tornado/test_bind_unix_socket.py::test_1,input.test-apps.tornado.tornado.test_bind_unix_socket,test_1,input/test-apps/tornado/tornado/test_bind_unix_socket.py,,,passed,,0.000866142800077796
+input/test-apps/tornado/tornado/test_bind_unix_socket.py::test_0,input.test-apps.tornado.tornado.test_bind_unix_socket,test_0,input/test-apps/tornado/tornado/test_bind_unix_socket.py,,,passed,,0.00046237697824835777
+input/test-apps/tornado/tornado/test_bind_unix_socket.py::test_2,input.test-apps.tornado.tornado.test_bind_unix_socket,test_2,input/test-apps/tornado/tornado/test_bind_unix_socket.py,,,passed,,0.0003991769626736641

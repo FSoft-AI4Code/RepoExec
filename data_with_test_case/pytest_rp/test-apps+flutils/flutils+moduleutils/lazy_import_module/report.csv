@@ -1,0 +1,10 @@
+id,module,name,file,doc,markers,status,message,duration
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_1,input.test-apps.flutils.flutils.test_lazy_import_module,test_1,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.0006616630125790834
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_4,input.test-apps.flutils.flutils.test_lazy_import_module,test_4,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.00025970814749598503
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_14,input.test-apps.flutils.flutils.test_lazy_import_module,test_14,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.00022791814990341663
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_19,input.test-apps.flutils.flutils.test_lazy_import_module,test_19,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.0002464128192514181
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_25,input.test-apps.flutils.flutils.test_lazy_import_module,test_25,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.00021611596457660198
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_17,input.test-apps.flutils.flutils.test_lazy_import_module,test_17,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.0007274970412254333
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_21,input.test-apps.flutils.flutils.test_lazy_import_module,test_21,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.00027059903368353844
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_22,input.test-apps.flutils.flutils.test_lazy_import_module,test_22,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.00027461606077849865
+input/test-apps/flutils/flutils/test_lazy_import_module.py::test_23,input.test-apps.flutils.flutils.test_lazy_import_module,test_23,input/test-apps/flutils/flutils/test_lazy_import_module.py,,,passed,,0.00025545014068484306

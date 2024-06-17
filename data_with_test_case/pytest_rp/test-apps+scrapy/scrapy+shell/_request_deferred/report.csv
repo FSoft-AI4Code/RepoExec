@@ -1,0 +1,7 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/test__request_deferred.py::test_7,scrapy.test__request_deferred,test_7,scrapy/test__request_deferred.py,,,passed,,0.00043030595406889915
+scrapy/test__request_deferred.py::test_9,scrapy.test__request_deferred,test_9,scrapy/test__request_deferred.py,,,passed,,0.0019657209049910307
+scrapy/test__request_deferred.py::test_10,scrapy.test__request_deferred,test_10,scrapy/test__request_deferred.py,,,passed,,0.0050779099110513926
+scrapy/test__request_deferred.py::test_14,scrapy.test__request_deferred,test_14,scrapy/test__request_deferred.py,,,passed,,0.0012168490793555975
+scrapy/test__request_deferred.py::test_12,scrapy.test__request_deferred,test_12,scrapy/test__request_deferred.py,,,passed,,0.0004512749146670103
+scrapy/test__request_deferred.py::test_16,scrapy.test__request_deferred,test_16,scrapy/test__request_deferred.py,,,passed,,0.0005699270404875278

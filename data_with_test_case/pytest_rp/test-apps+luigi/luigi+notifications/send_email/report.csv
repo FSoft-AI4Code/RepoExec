@@ -1,0 +1,7 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test_send_email.py::test_2,luigi.test_send_email,test_2,luigi/test_send_email.py,,,passed,,0.014496342046186328
+luigi/test_send_email.py::test_3,luigi.test_send_email,test_3,luigi/test_send_email.py,,,passed,,0.00071705412119627
+luigi/test_send_email.py::test_4,luigi.test_send_email,test_4,luigi/test_send_email.py,,,passed,,0.0022620379459112883
+luigi/test_send_email.py::test_7,luigi.test_send_email,test_7,luigi/test_send_email.py,,,passed,,0.002306060865521431
+luigi/test_send_email.py::test_9,luigi.test_send_email,test_9,luigi/test_send_email.py,,,passed,,0.002125142142176628
+luigi/test_send_email.py::test_10,luigi.test_send_email,test_10,luigi/test_send_email.py,,,passed,,0.002076731063425541

@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_file_stream.py::test_12,sanic.test_file_stream,test_12,sanic/test_file_stream.py,,,passed,,0.0007806702051311731

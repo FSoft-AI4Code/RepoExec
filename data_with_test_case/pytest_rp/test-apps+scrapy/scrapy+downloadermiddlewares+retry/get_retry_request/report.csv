@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/downloadermiddlewares/test_get_retry_request.py::test_6,scrapy.downloadermiddlewares.test_get_retry_request,test_6,scrapy/downloadermiddlewares/test_get_retry_request.py,,,passed,,0.00043907295912504196

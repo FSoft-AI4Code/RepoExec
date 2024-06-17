@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test_summary.py::test_10,luigi.test_summary,test_10,luigi/test_summary.py,,,passed,,0.016639790032058954

@@ -1,0 +1,5 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_memoizemethod_noargs.py::test_1,scrapy.utils.test_memoizemethod_noargs,test_1,scrapy/utils/test_memoizemethod_noargs.py,,,passed,,0.0005272291600704193
+scrapy/utils/test_memoizemethod_noargs.py::test_4,scrapy.utils.test_memoizemethod_noargs,test_4,scrapy/utils/test_memoizemethod_noargs.py,,,passed,,0.00028840103186666965
+scrapy/utils/test_memoizemethod_noargs.py::test_14,scrapy.utils.test_memoizemethod_noargs,test_14,scrapy/utils/test_memoizemethod_noargs.py,,,passed,,0.00044790003448724747
+scrapy/utils/test_memoizemethod_noargs.py::test_18,scrapy.utils.test_memoizemethod_noargs,test_18,scrapy/utils/test_memoizemethod_noargs.py,,,passed,,0.00034621008671820164

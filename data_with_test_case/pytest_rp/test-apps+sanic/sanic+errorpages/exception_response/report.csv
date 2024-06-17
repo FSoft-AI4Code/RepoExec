@@ -1,0 +1,5 @@
+id,module,name,file,doc,markers,status,message,duration
+sanic/test_exception_response.py::test_5,sanic.test_exception_response,test_5,sanic/test_exception_response.py,,,passed,,0.0007426210213452578
+sanic/test_exception_response.py::test_15,sanic.test_exception_response,test_15,sanic/test_exception_response.py,,,passed,,0.0003204289823770523
+sanic/test_exception_response.py::test_17,sanic.test_exception_response,test_17,sanic/test_exception_response.py,,,passed,,0.0003215519245713949
+sanic/test_exception_response.py::test_19,sanic.test_exception_response,test_19,sanic/test_exception_response.py,,,passed,,0.0002782999072223902

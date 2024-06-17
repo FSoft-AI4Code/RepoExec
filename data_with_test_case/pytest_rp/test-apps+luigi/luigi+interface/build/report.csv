@@ -1,0 +1,2 @@
+id,module,name,file,doc,markers,status,message,duration
+luigi/test_build.py::test_11,luigi.test_build,test_11,luigi/test_build.py,,,passed,,0.020155639853328466

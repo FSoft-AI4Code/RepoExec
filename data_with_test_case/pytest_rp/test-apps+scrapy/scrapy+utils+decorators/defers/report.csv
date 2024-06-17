@@ -1,0 +1,13 @@
+id,module,name,file,doc,markers,status,message,duration
+scrapy/utils/test_defers.py::test_1,scrapy.utils.test_defers,test_1,scrapy/utils/test_defers.py,,,passed,,0.0004275999963283539
+scrapy/utils/test_defers.py::test_2,scrapy.utils.test_defers,test_2,scrapy/utils/test_defers.py,,,passed,,0.0002915759105235338
+scrapy/utils/test_defers.py::test_3,scrapy.utils.test_defers,test_3,scrapy/utils/test_defers.py,,,passed,,0.0002605270128697157
+scrapy/utils/test_defers.py::test_4,scrapy.utils.test_defers,test_4,scrapy/utils/test_defers.py,,,passed,,0.00026393402367830276
+scrapy/utils/test_defers.py::test_5,scrapy.utils.test_defers,test_5,scrapy/utils/test_defers.py,,,passed,,0.00023516989313066006
+scrapy/utils/test_defers.py::test_6,scrapy.utils.test_defers,test_6,scrapy/utils/test_defers.py,,,passed,,0.002226965967565775
+scrapy/utils/test_defers.py::test_8,scrapy.utils.test_defers,test_8,scrapy/utils/test_defers.py,,,passed,,0.00025313394144177437
+scrapy/utils/test_defers.py::test_10,scrapy.utils.test_defers,test_10,scrapy/utils/test_defers.py,,,passed,,0.00025777192786335945
+scrapy/utils/test_defers.py::test_11,scrapy.utils.test_defers,test_11,scrapy/utils/test_defers.py,,,passed,,0.001814965158700943
+scrapy/utils/test_defers.py::test_13,scrapy.utils.test_defers,test_13,scrapy/utils/test_defers.py,,,passed,,0.0002501180861145258
+scrapy/utils/test_defers.py::test_14,scrapy.utils.test_defers,test_14,scrapy/utils/test_defers.py,,,passed,,0.00025956612080335617
+scrapy/utils/test_defers.py::test_15,scrapy.utils.test_defers,test_15,scrapy/utils/test_defers.py,,,passed,,0.0010060931090265512
