@@ -224,7 +224,7 @@ docker build -t codeeval-runner -f docker/Dockerfile --platform linux/amd64 .
 
 ## Evaluation
 
-Script examples to run evaluation are contained in [`scripts`](https://github.com/FSoft-AI4Code/RepoExec/tree/main/code_eval/scripts)
+Script examples to run evaluation are contained in [`scripts`](https://github.com/FSoft-AI4Code/RepoExec/tree/master/code_eval/scripts)
 
 ### LLMs prediction
 Inherited from [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness/tree/main)
