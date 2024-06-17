@@ -1,30 +1,8 @@
-"""Instruction version of HumanEval used for WizardCoder Models evaluation
-Evaluating Large Language Models Trained on Code
-https://arxiv.org/abs/2107.03374
-
-The HumanEval dataset released by OpenAI includes 164 programming problems with a function signature,
-docstring, body, and several unit tests. 
-They were handwritten to ensure not to be included in the training set of code generation models.
-
-Homepage: https://github.com/openai/human-eval
-"""
-
 import re
 
 from evaluate import load
 
 from lm_eval.base import Task
-
-_CITATION = """
-@misc{chen2021evaluating,
-      title={Evaluating Large Language Models Trained on Code},
-      author={Mark Chen and Jerry Tworek and Heewoo Jun and Qiming Yuan and Henrique Ponde de Oliveira Pinto and Jared Kaplan and Harri Edwards and Yuri Burda and Nicholas Joseph and Greg Brockman and Alex Ray and Raul Puri and Gretchen Krueger and Michael Petrov and Heidy Khlaaf and Girish Sastry and Pamela Mishkin and Brooke Chan and Scott Gray and Nick Ryder and Mikhail Pavlov and Alethea Power and Lukasz Kaiser and Mohammad Bavarian and Clemens Winter and Philippe Tillet and Felipe Petroski Such and Dave Cummings and Matthias Plappert and Fotios Chantzis and Elizabeth Barnes and Ariel Herbert-Voss and William Hebgen Guss and Alex Nichol and Alex Paino and Nikolas Tezak and Jie Tang and Igor Babuschkin and Suchir Balaji and Shantanu Jain and William Saunders and Christopher Hesse and Andrew N. Carr and Jan Leike and Josh Achiam and Vedant Misra and Evan Morikawa and Alec Radford and Matthew Knight and Miles Brundage and Mira Murati and Katie Mayer and Peter Welinder and Bob McGrew and Dario Amodei and Sam McCandlish and Ilya Sutskever and Wojciech Zaremba},
-      year={2021},
-      eprint={2107.03374},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-"""
 
 
 def generate_prompt(input, function_signature):
@@ -43,8 +21,8 @@ def create_all_tasks():
     :return: {task_name: task}
         e.g. {multiple-py: Task, multiple-java: Task}
     """
-    return {"wizardcoder-repo-codegen-long-context": create_task(False, False), "wizardcoder-repo-codegen-short-context-doc": create_task(True, True),
-             "wizardcoder-repo-codegen-short-context-nodoc": create_task(True, False) }
+    return {"wizardcoder-repoexec-long-context": create_task(False, False), "wizardcoder-repoexec-short-context-doc": create_task(True, True),
+             "wizardcoder-repoexec-short-context-nodoc": create_task(True, False) }
 
 def create_task(short_context, contained_doc):
     class RepoCodeGen(RepoCodeGenWizardCoder):
@@ -58,7 +36,7 @@ class RepoCodeGenWizardCoder(Task):
     answers, generation settings and evaluation methods.
     """
 
-    DATASET_PATH = "NamCyan/repo-codegen-v3"
+    DATASET_PATH = "Fsoft-AIC/RepoExec"
 
     def __init__(self, short_context, contained_doc):
 

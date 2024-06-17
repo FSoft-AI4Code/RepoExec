@@ -1,52 +1,30 @@
-"""Instruction version of HumanEval used for WizardCoder Models evaluation
-Evaluating Large Language Models Trained on Code
-https://arxiv.org/abs/2107.03374
-
-The HumanEval dataset released by OpenAI includes 164 programming problems with a function signature,
-docstring, body, and several unit tests. 
-They were handwritten to ensure not to be included in the training set of code generation models.
-
-Homepage: https://github.com/openai/human-eval
-"""
-
 import re
 
 from evaluate import load
 
 from lm_eval.base import Task
 
-_CITATION = """
-@misc{chen2021evaluating,
-      title={Evaluating Large Language Models Trained on Code},
-      author={Mark Chen and Jerry Tworek and Heewoo Jun and Qiming Yuan and Henrique Ponde de Oliveira Pinto and Jared Kaplan and Harri Edwards and Yuri Burda and Nicholas Joseph and Greg Brockman and Alex Ray and Raul Puri and Gretchen Krueger and Michael Petrov and Heidy Khlaaf and Girish Sastry and Pamela Mishkin and Brooke Chan and Scott Gray and Nick Ryder and Mikhail Pavlov and Alethea Power and Lukasz Kaiser and Mohammad Bavarian and Clemens Winter and Philippe Tillet and Felipe Petroski Such and Dave Cummings and Matthias Plappert and Fotios Chantzis and Elizabeth Barnes and Ariel Herbert-Voss and William Hebgen Guss and Alex Nichol and Alex Paino and Nikolas Tezak and Jie Tang and Igor Babuschkin and Suchir Balaji and Shantanu Jain and William Saunders and Christopher Hesse and Andrew N. Carr and Jan Leike and Josh Achiam and Vedant Misra and Evan Morikawa and Alec Radford and Matthew Knight and Miles Brundage and Mira Murati and Katie Mayer and Peter Welinder and Bob McGrew and Dario Amodei and Sam McCandlish and Ilya Sutskever and Wojciech Zaremba},
-      year={2021},
-      eprint={2107.03374},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
-}
-"""
-
 def create_all_tasks():
     """Creates a dictionary of tasks from a list of levels
     :return: {task_name: task}
         e.g. {multiple-py: Task, multiple-java: Task}
     """
-    return {"instruct-repo-codegen-full-context": create_task("full_context"), "instruct-repo-codegen-medium-context": create_task("medium_context"), "instruct-repo-codegen-short-context": create_task("short_context"), 
-            "instruct1-repo-codegen-full-context": create_task("full_context", 1), "instruct1-repo-codegen-medium-context": create_task("medium_context", 1), "instruct1-repo-codegen-short-context": create_task("short_context", 1)}
+    return {"instruct-repoexec-full-context": create_task("full_context"), "instruct-repoexec-medium-context": create_task("medium_context"), "instruct-repoexec-short-context": create_task("short_context"), 
+            "instruct1-repoexec-full-context": create_task("full_context", 1), "instruct1-repoexec-medium-context": create_task("medium_context", 1), "instruct1-repoexec-short-context": create_task("short_context", 1)}
 
 def create_task(data_split, instruct_type=0):
-    class RepoCodeGen(InstructRepoCodeGen):
+    class RepoExec(InstructRepoExec):
         def __init__(self, prompt="instruct"):
             super().__init__(data_split, prompt, instruct_type)
 
-    return RepoCodeGen
+    return RepoExec
 
-class InstructRepoCodeGen(Task):
+class InstructRepoExec(Task):
     """A task represents an entire benchmark including its dataset, problems,
     answers, generation settings and evaluation methods.
     """
 
-    DATASET_PATH = "Fsoft-AIC/RepoCodeGen"
+    DATASET_PATH = "Fsoft-AIC/RepoExec"
 
     def __init__(self, data_split, prompt="instruct", instruct_type = 0):
 

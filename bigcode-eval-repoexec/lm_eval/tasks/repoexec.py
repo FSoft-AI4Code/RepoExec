@@ -1,13 +1,3 @@
-"""Evaluating Large Language Models Trained on Code
-https://arxiv.org/abs/2107.03374
-
-The HumanEval dataset released by OpenAI includes 164 programming problems with a function signature,
-docstring, body, and several unit tests. 
-They were handwritten to ensure not to be included in the training set of code generation models.
-
-Homepage: https://github.com/openai/human-eval
-"""
-
 import re
 
 from evaluate import load
@@ -19,25 +9,25 @@ def create_all_tasks():
     :return: {task_name: task}
         e.g. {multiple-py: Task, multiple-java: Task}
     """
-    return {"repo-codegen-full-context": create_task(True, "full_context"), 
-            "repo-codegen-medium-context": create_task(True, "medium_context"), 
-            "repo-codegen-short-context": create_task(True, "short_context")}
+    return {"repoexec-full-context": create_task(True, "full_context"), 
+            "repoexec-medium-context": create_task(True, "medium_context"), 
+            "repoexec-short-context": create_task(True, "short_context")}
 
 
 def create_task(strip_prompt, data_split):
-    class RepoCodeGen(GeneralRepoCodeGen):
+    class RepoExec(GeneralRepoExec):
         def __init__(self):
             super().__init__(strip_prompt, data_split)
 
-    return RepoCodeGen
+    return RepoExec
 
 
-class GeneralRepoCodeGen(Task):
+class GeneralRepoExec(Task):
     """A task represents an entire benchmark including its dataset, problems,
     answers, generation settings and evaluation methods.
     """
 
-    DATASET_PATH = "Fsoft-AIC/RepoCodeGen"
+    DATASET_PATH = "Fsoft-AIC/RepoExec"
 
     def __init__(self, strip_prompt, data_split):
         super().__init__(

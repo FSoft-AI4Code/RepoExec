@@ -4,7 +4,7 @@ from pprint import pprint
 from . import (apps, codexglue_code_to_text, codexglue_text_to_text, conala,
                concode, ds1000, gsm, humaneval, humanevalpack,
                instruct_humaneval, instruct_wizard_humaneval, mbpp, multiple,
-               parity, python_bugs, quixbugs, recode, repo_codegen, instruct_wizard_repocodegen, instruct_repocodegen)
+               parity, python_bugs, quixbugs, recode, repoexec, instruct_wizard_repoexec, instruct_repoexec)
 
 TASK_REGISTRY = {
     **apps.create_all_tasks(),
@@ -25,9 +25,9 @@ TASK_REGISTRY = {
     **gsm.create_all_tasks(),
     **instruct_humaneval.create_all_tasks(),
     **recode.create_all_tasks(),
-    **repo_codegen.create_all_tasks(),
-    **instruct_wizard_repocodegen.create_all_tasks(),
-    **instruct_repocodegen.create_all_tasks(),
+    **repoexec.create_all_tasks(),
+    **instruct_wizard_repoexec.create_all_tasks(),
+    **instruct_repoexec.create_all_tasks(),
 }
 
 ALL_TASKS = sorted(list(TASK_REGISTRY))
