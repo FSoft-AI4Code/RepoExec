@@ -9,7 +9,7 @@
 RepoExec is a novel benchmark designed to evaluate code generation at the repository level with a focus on executability and correctness. This benchmark addresses the gaps in existing systems by emphasizing real-world applicability and providing a comprehensive assessment of code functionality. It aims to provide a comprehensive evaluation of code functionality and alignment with developer intent, paving the way for more reliable and applicable CodeLLMs in real-world scenarios.
 
 # Dataset
-The dataset is available at [RepoExec](https://huggingface.co/datasets/Fsoft-AIC/RepoExec)
+[RepoExec](https://huggingface.co/datasets/Fsoft-AIC/RepoExec) is available at Huggingface datasets.
 
 ```python
 from datasets import load_dataset
