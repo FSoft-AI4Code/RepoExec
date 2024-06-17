@@ -50,8 +50,8 @@ def dependencies_rate(gt_dep,pred_dep):
 
 
 
-src = "/home/namlh31aic/Project/AI4Code/repocodegen/results/execution_rs/repo-codegen-v3/repo-codegen-long-context-v3/InstructPrompt-Codellama-13b-Instruct"
-datasrc = load_dataset("Fsoft-AIC/RepoCodeGen")["full_context"]
+src = "./results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2"
+datasrc = load_dataset("Fsoft-AIC/RepoExec")["full_context"]
 print(datasrc)
 
 ES = []
