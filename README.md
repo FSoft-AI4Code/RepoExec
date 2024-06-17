@@ -2,7 +2,7 @@
 
 # RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2305.06156-b31b1b.svg)]() [![ExecRepo on HuggingFace datasets](https://img.shields.io/badge/RepoExec-yellow?style=flat&logo=huggingface&logoColor=yellow&label=Datasets)]() 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2305.06156-b31b1b.svg)]() [![ExecRepo on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-RepoExec-yellow?style=flat)]() 
 </div>
 
 # Introduction
