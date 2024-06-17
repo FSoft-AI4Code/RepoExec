@@ -234,27 +234,21 @@ cd RepoExec/bigcode-eval-repoexec
 pip install -e .
 ```
 
-Example script are in [phi-2-generation](https://github.com/FSoft-AI4Code/RepoExec/blob/main/bigcode-eval-repocodegen/scripts/generation.sh)
+Example scripts are in [phi-2-generation](https://github.com/FSoft-AI4Code/RepoExec/blob/main/bigcode-eval-repoexec/scripts/generation.sh)
 
-There are 2 kind of prompts: BasePrompt and InstructPrompt:
+There are 2 kinds of prompts: BasePrompt and InstructPrompt:
 - To use BasePrompt, specify the `--tasks` argument to `repo-codegen-{full|medium|short}-context`.
 - To use InstructPrompt, specify the `--tasks` argument to `instruct-repo-codegen-{full|medium|short}-context` and `prompt` argument to use the template specific for each model (e.g. `--prompt codellama` for CodeLlama series).
 
-<!-- ![prompt type](https://huggingface.co/datasets/loubnabnl/repo-images/resolve/main/humaneval_instruct.png) -->
 
-`max_length_generation` parameters:
-- BasePrompt: full - 1280 | medium/short - 1024
-- InstructPrompt: full - 1536 | medium/short - 1280
-
-
-After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoCodeGen/tree/main/results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2)
+After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoExec/tree/main/results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2)
 
 Example:
 ```python
 [[pred_11, pred_12, pred13], [pred_21, pred_22, pred_23], ...]
 ```
 
-**Note**: if you use ChatGPT, please use your own script. This current supports only open-source model.
+**Note**: if you use a close-source model (e.g ChatGPT), please use your own script. This currently supports only an open-source model.
 
 ### Process output
 Process to acquire the target function from prediction and save to json file. 
@@ -266,7 +260,7 @@ python3 process_result.py \
 ```
 
 ### Execution
-Execute the generated function of model to obtain the execution output.
+Execute the generated function of the model to obtain the execution output.
 
 ```python
 python3 execute.py --subset full_context \
