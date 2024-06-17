@@ -1,4 +1,4 @@
-# REPOEXEC: Evaluate Code Generation with a Repository-Level Executable Benchmark
+# RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
 
 # Dataset
 The dataset is available at [REPOEXEC](https://huggingface.co/datasets/Fsoft-AIC/RepoExec)
@@ -272,3 +272,25 @@ python3 execute.py --subset full_context \
 ```python
 python3 passk.py --execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
 ```
+
+
+# Citing RepoExec
+More details can be found in our [paper](). 
+
+If you're using The Vault or the toolkit in your research or applications, please cite using this BibTeX:
+```bibtex
+@article{nam2024repoexec,
+  title={RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark},
+  author={Hai, Nam Le and Manh, Dung Nguyen and Bui, Nghi DQ},
+  journal={},
+  year={2024}
+}
+```
+
+# Contact us
+If you have any questions, comments or suggestions, please do not hesitate to contact us.
+- Website: [fpt-aicenter](https://www.fpt-aicenter.com/ai-residency/)
+- Email: support.ailab@fpt.com
+
+# License
+[MIT License](LICENSE)
