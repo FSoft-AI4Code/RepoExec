@@ -237,11 +237,11 @@ pip install -e .
 Example scripts are in [phi-2-generation](https://github.com/FSoft-AI4Code/RepoExec/blob/master/bigcode-eval-repoexec/scripts/generation.sh)
 
 There are 2 kinds of prompts: BasePrompt and InstructPrompt:
-- To use BasePrompt, specify the `--tasks` argument to `repo-codegen-{full|medium|short}-context`.
-- To use InstructPrompt, specify the `--tasks` argument to `instruct-repo-codegen-{full|medium|short}-context` and `prompt` argument to use the template specific for each model (e.g. `--prompt codellama` for CodeLlama series).
+- To use BasePrompt, specify the `--tasks` argument to `repoexec-{full|medium|short}-context`.
+- To use InstructPrompt, specify the `--tasks` argument to `instruct-repoexec-{full|medium|short}-context` and `prompt` argument to use the template specific for each model (e.g. `--prompt codellama` for CodeLlama series).
 
 
-After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoExec/tree/master/results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2)
+After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoExec/tree/master/results/examples/predictions/repoexec-full-context/BasePrompt-phi-2)
 
 Example:
 ```python
@@ -256,7 +256,7 @@ Process to acquire the target function from prediction and save to json file.
 ```
 python3 process_result.py \
 --subset medium_context \
---prediction_dir results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2 \
+--prediction_dir results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
 ```
 
 ### Execution
@@ -264,11 +264,11 @@ Execute the generated function of the model to obtain the execution output.
 
 ```python
 python3 execute.py --subset full_context \
---prediction_dir ./results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2 \
---execution_dir ./results/examples/execution_rs/repo-codegen-full-context/BasePrompt-phi-2 \
+--prediction_dir ./results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
+--execution_dir ./results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2 \
 ```
 
 ### Calculate pass@k
 ```python
-python3 passk.py --execution_dir ./results/examples/execution_rs/repo-codegen-full-context/BasePrompt-phi-2
+python3 passk.py --execution_dir ./results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
 ```
