@@ -5,8 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2305.06156-b31b1b.svg)]() [![ExecRepo on HuggingFace datasets](https://img.shields.io/badge/RepoExec-yellow?style=flat&logo=huggingface&logoColor=yellow&label=Datasets)]() 
 </div>
 
+# Introduction
+RepoExec is a novel benchmark designed to evaluate code generation at the repository level with a focus on executability and correctness. This benchmark addresses the gaps in existing systems by emphasizing real-world applicability and providing a comprehensive assessment of code functionality.
+
 # Dataset
-The dataset is available at [REPOEXEC](https://huggingface.co/datasets/Fsoft-AIC/RepoExec)
+The dataset is available at [RepoExec](https://huggingface.co/datasets/Fsoft-AIC/RepoExec)
 
 ```python
 from datasets import load_dataset
