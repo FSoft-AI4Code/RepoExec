@@ -256,7 +256,7 @@ Process to acquire the target function from prediction and save to json file.
 ```
 python3 process_result.py \
 --subset medium_context \
---prediction_dir results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
+--prediction_dir ../results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
 ```
 
 ### Execution
@@ -264,11 +264,11 @@ Execute the generated function of the model to obtain the execution output.
 
 ```python
 python3 execute.py --subset full_context \
---prediction_dir ./results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
---execution_dir ./results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2 \
+--prediction_dir ../results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
+--execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2 \
 ```
 
 ### Calculate pass@k
 ```python
-python3 passk.py --execution_dir ./results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
+python3 passk.py --execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
 ```
