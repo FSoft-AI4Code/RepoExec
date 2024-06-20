@@ -294,6 +294,11 @@ If you're using RepoExec, please cite using this BibTeX:
 }
 ```
 
+# Acknowledgements
+This codebase is adapted from:
+- [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness/tree/main)
+- [HumanEval](https://github.com/openai/human-eval)
+
 # Contact us
 If you have any questions, comments or suggestions, please do not hesitate to contact us.
 - Website: [fpt-aicenter](https://www.fpt-aicenter.com/ai-residency/)
@@ -301,8 +306,3 @@ If you have any questions, comments or suggestions, please do not hesitate to co
 
 # License
 [MIT License](LICENSE)
-
-# Acknowledgement
-This codebase is adapted from:
-- [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness/tree/main)
-- [HumanEval](https://github.com/openai/human-eval)
