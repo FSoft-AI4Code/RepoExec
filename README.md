@@ -175,7 +175,7 @@ def camel_case_to_snake(input_string, separator='_'):
 ```
 
 ```python
-# short context
+# small context
 import base64
 import random
 import unicodedata
@@ -235,7 +235,6 @@ docker build -t codeeval-runner -f docker/Dockerfile --platform linux/amd64 .
 Script examples to run evaluation are contained in [`scripts`](https://github.com/FSoft-AI4Code/RepoExec/tree/master/code_eval/scripts)
 
 ### LLMs prediction
-Inherited from [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness/tree/main)
 
 ```
 cd RepoExec/bigcode-eval-repoexec
@@ -290,7 +289,7 @@ If you're using RepoExec, please cite using this BibTeX:
 @article{nam2024repoexec,
   title={RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark},
   author={Hai, Nam Le and Manh, Dung Nguyen and Bui, Nghi DQ},
-  journal={},
+  journal={arXiv preprint arXiv:2406.11927v1},
   year={2024}
 }
 ```
@@ -302,3 +301,8 @@ If you have any questions, comments or suggestions, please do not hesitate to co
 
 # License
 [MIT License](LICENSE)
+
+# Acknowledgement
+This codebase is adapted from:
+- [bigcode-evaluation-harness](https://github.com/bigcode-project/bigcode-evaluation-harness/tree/main)
+- [HumanEval](https://github.com/openai/human-eval)
