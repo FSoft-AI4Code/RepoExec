@@ -226,7 +226,7 @@ pip install -e .
 
 ## Set up for execution
 ```
-cd RepoExec/code_eval
+cd RepoExec/execution-code-eval
 docker build -t codeeval-runner -f docker/Dockerfile --platform linux/amd64 .
 ```
 
@@ -234,7 +234,7 @@ docker build -t codeeval-runner -f docker/Dockerfile --platform linux/amd64 .
 
 Script examples to run evaluation are contained in [`scripts`](https://github.com/FSoft-AI4Code/RepoExec/tree/master/code_eval/scripts)
 
-### LLMs prediction
+### LLMs generation
 
 ```
 cd RepoExec/bigcode-eval-repoexec
