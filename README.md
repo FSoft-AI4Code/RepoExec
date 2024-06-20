@@ -2,7 +2,7 @@
 
 # RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/arXiv-2305.06156-b31b1b.svg)]() [![ExecRepo on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-RepoExec-yellow?style=flat)](https://huggingface.co/datasets/Fsoft-AIC/RepoExec) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/2406.11927-red?style=flat&label=arXiv&color=red)](https://arxiv.org/html/2406.11927v1) [![ExecRepo on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-RepoExec-yellow?style=flat)](https://huggingface.co/datasets/Fsoft-AIC/RepoExec) 
 </div>
 
 # Introduction
@@ -256,7 +256,7 @@ Example:
 [[pred_11, pred_12, pred13], [pred_21, pred_22, pred_23], ...]
 ```
 
-**Note**: if you use a close-source model (e.g ChatGPT), please use your own script. This currently supports only an open-source model.
+**Note**: if you use a close-source model (e.g ChatGPT), please use your custom script. This currently supports only an open-source model.
 
 ### Process output
 Process to acquire the target function from prediction and save to json file. 
@@ -283,7 +283,7 @@ python3 passk.py --execution_dir ../results/examples/execution_rs/repoexec-full-
 
 
 # Citing RepoExec
-More details can be found in our [paper](). 
+More details can be found in our [paper](https://github.com/FSoft-AI4Code/RepoExec/blob/master/paper/main.pdf). 
 
 If you're using RepoExec, please cite using this BibTeX:
 ```bibtex
