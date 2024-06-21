@@ -3,7 +3,9 @@
 
 <div align="center">
 
-<img src="asset/repoexec_logo.png", width=200></img>
+<p align="center">
+  <img src="./assets/repoexec_logo.png" width="200px" alt="logo">
+</p>
 
 # RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
 
