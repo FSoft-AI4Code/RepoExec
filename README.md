@@ -1,9 +1,23 @@
-<div align="center">
+<style>
+    .container {
+        display: flex; /* Use flexbox for layout */
+        align-items: center; /* Vertically align items */
+    }
+    .image {
+        flex: 1; /* Take up 1/3 of the available space */
+    }
+    .text {
+        flex: 2; /* Take up 2/3 of the available space */
+    }
+</style>
 
-<p align="center">
+<div>
+<div class="container", align="center">
   <img src="./asset/repoexec_logo.png" width="100px" alt="logo">
+  <div class="text">
   RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
-</p>
+  </div>
+</div>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![arXiv](https://img.shields.io/badge/2406.11927-red?style=flat&label=arXiv)](https://arxiv.org/html/2406.11927v1) [![ExecRepo on HuggingFace datasets](https://img.shields.io/badge/%F0%9F%A4%97%20Datasets-RepoExec-f9a602?style=flat)](https://huggingface.co/datasets/Fsoft-AIC/RepoExec) [![Homepage](https://custom-icon-badges.demolab.com/badge/WebPage-1a4f76?style=flat&logo=web)](https://fsoft-ai4code.github.io/repoexec/)  [![Leaderboard](https://custom-icon-badges.demolab.com/badge/Leaderboard-E39842?style=flat&logo=barchart&label=%20)]() 
 
