@@ -1,7 +1,10 @@
 
-<div align="center">
-    <img src="./asset/repoexec_logo.png" width="100px" alt="logo">
 
+|             |             |
+| :---------------------- | :---------------------- |
+| ![cat](asset/repoexec_logo.png) | RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark |
+
+<div align="center">
 # RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
 
 
