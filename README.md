@@ -4,7 +4,6 @@
 <div align="center">
 # RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
 
-|             |             |
 | :---------------------- | :---------------------- |
 | ![cat](asset/repoexec_logo.png) | RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark |
 
