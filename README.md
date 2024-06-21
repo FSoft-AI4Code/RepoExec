@@ -1,18 +1,5 @@
 <div>
-<style>
-    .container {
-        display: flex; /* Use flexbox for layout */
-        align-items: center; /* Vertically align items */
-    }
-    .image {
-        flex: 1; /* Take up 1/3 of the available space */
-    }
-    .text {
-        flex: 2; /* Take up 2/3 of the available space */
-    }
-</style>
-
-<div class="container", align="center">
+<div align="center">
     <img src="./asset/repoexec_logo.png" width="100px" alt="logo">
     <div class="text">
         RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
