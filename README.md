@@ -21,7 +21,7 @@ RepoExec is a novel benchmark designed to evaluate code generation at the reposi
 from datasets import load_dataset
 
 # RepoExec contains 3 subsets, corresponding to the detail of the context level
-# full_context || medium_context || short_context
+# full_context || medium_context || small_context
 dataset = load_dataset("Fsoft-AIC/RepoExec")
 ```
 
@@ -250,8 +250,8 @@ pip install -e .
 Example scripts are in [phi-2-generation](https://github.com/FSoft-AI4Code/RepoExec/blob/master/bigcode-eval-repoexec/scripts/generation.sh)
 
 There are 2 kinds of prompts: BasePrompt and InstructPrompt:
-- To use BasePrompt, specify the `--tasks` argument to `repoexec-{full|medium|short}-context`.
-- To use InstructPrompt, specify the `--tasks` argument to `instruct-repoexec-{full|medium|short}-context` and `prompt` argument to use the template specific for each model (e.g. `--prompt codellama` for CodeLlama series).
+- To use BasePrompt, specify the `--tasks` argument to `repoexec-{full|medium|small}-context`.
+- To use InstructPrompt, specify the `--tasks` argument to `instruct-repoexec-{full|medium|small}-context` and `prompt` argument to use the template specific for each model (e.g. `--prompt codellama` for CodeLlama series).
 
 
 After running the generation script, generation result will be a nested list of prediction for each problem in the dataset and is saved to a `generations.json` file. See the example in [phi-2 prediction](https://github.com/FSoft-AI4Code/RepoExec/tree/master/results/examples/predictions/repoexec-full-context/BasePrompt-phi-2)
