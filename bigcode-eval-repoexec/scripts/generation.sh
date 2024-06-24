@@ -4,7 +4,7 @@ export HF_DATASETS_CACHE="/.cache"
 
 CUDA_VISIBLE_DEVICES=6,7 python3 -m accelerate.commands.launch --config_file ./scripts/generate_config.yaml main.py \
 --model microsoft/phi-2 \
---tasks repo-codegen-full-context \
+--tasks repoexec-full-context \
 --generation_only \
 --do_sample True \
 --temperature 0.2 \
