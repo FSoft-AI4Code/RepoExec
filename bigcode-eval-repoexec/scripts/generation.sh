@@ -13,7 +13,7 @@ CUDA_VISIBLE_DEVICES=6,7 python3 -m accelerate.commands.launch --config_file ./s
 --generation_only \
 --save_generations \
 --trust_remote_code \
---save_generations_path ./results/examples/predictions/repo-codegen-full-context/BasePrompt-phi-2/generations.json \
+--save_generations_path ./results/examples/predictions/repoexec-full-context/BasePrompt-phi-2/generations.json \
 --max_length_generation 1280 \
 --max_new_tokens 512 \
 --precision fp16 \
