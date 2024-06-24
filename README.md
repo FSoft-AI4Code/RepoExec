@@ -238,7 +238,7 @@ docker build -t codeeval-runner -f docker/Dockerfile --platform linux/amd64 .
 
 ## Evaluation
 
-Script examples to run evaluation are contained in [`scripts`](https://github.com/FSoft-AI4Code/RepoExec/tree/master/code_eval/scripts)
+Script examples to run evaluation are contained in [`scripts`](https://github.com/FSoft-AI4Code/RepoExec/tree/master/execution-code-eval/scripts)
 
 ### LLMs generation
 
