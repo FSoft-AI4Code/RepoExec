@@ -8,12 +8,12 @@ import numpy as np
 from utils import get_node_by_kind, parser
 
 import argparse
-parser = argparse.ArgumentParser()
-parser.add_argument('--execution_dir', help='outputdir for saving execution results', 
+argument_parser = argparse.ArgumentParser()
+argument_parser.add_argument('--execution_dir', help='outputdir for saving execution results', 
                     default="./results/execution_rs/repo-codegen-full-context-v3/gpt-3.5")
-parser.add_argument('--isContained', help='Execute all function (True) or only non-contained function (False)', 
+argument_parser.add_argument('--isContained', help='Execute all function (True) or only non-contained function (False)', 
                     action="store_true")
-args = parser.parse_args()
+args = argument_parser.parse_args()
 
 def get_identifier(code):
     root_node = parser.parse(bytes(code, "utf8")).root_node
@@ -48,11 +48,6 @@ def get_dependency_identifiers(code, entry_point, solution):
     return set(dependencies)
         
 def dependencies_rate(gt_dep,pred_dep):
-    # cnt = 0
-    # for dep in set(gt_dep):
-    #     if dep in pred_dep:
-    #         cnt += 1
-
     return len(set(gt_dep).intersection(set(pred_dep))) /len(set(gt_dep))
 
 

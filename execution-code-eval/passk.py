@@ -53,13 +53,15 @@ dataset = load_dataset("Fsoft-AIC/RepoExec")["full_context"]
 no_task = 0
 contained_func = 0
 
+print(len(dataset))
+
 print(len(os.listdir(rs_src)))
 for task in os.listdir(rs_src):
 
     if "passk" in task:
         continue
+
     task_id = int(task.split("_")[-1].split(".")[0])
-    
     if not isContained and dataset[task_id]["isContained"]:
         contained_func += 1
         continue
