@@ -1,6 +1,7 @@
 import fnmatch
 import json
 import warnings
+import os
 
 import datasets
 import torch
@@ -60,8 +61,9 @@ def parse_args():
         help="Model revision to use",
     )
     parser.add_argument(
-        "--use_auth_token",
-        action="store_true",
+        "--token",
+        type=str,
+        default=None,
         help="Use the token generated when running `huggingface-cli login` (necessary for private model).",
     )
     parser.add_argument(
@@ -216,6 +218,9 @@ def main():
     transformers.logging.set_verbosity_error()
     datasets.logging.set_verbosity_error()
 
+    if not os.path.exists(os.path.dirname(args.save_generations_path)):
+        os.makedirs(os.path.dirname(args.save_generations_path))
+
     if args.tasks is None:
         task_names = ALL_TASKS
     else:
@@ -248,7 +253,7 @@ def main():
         model_kwargs = {
             "revision": args.revision,
             "trust_remote_code": args.trust_remote_code,
-            "use_auth_token": args.use_auth_token,
+            "token": args.token,
         }
         if args.load_in_8bit:
             print("Loading model in 8bit")
@@ -303,7 +308,7 @@ def main():
             args.model,
             revision=args.revision,
             trust_remote_code=args.trust_remote_code,
-            use_auth_token=args.use_auth_token,
+            token=args.token,
             truncation_side="left",
             padding_side="right",  # padding on the right is needed to cut off padding in `complete_code`
         )

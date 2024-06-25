@@ -6,12 +6,10 @@ from lm_eval.base import Task
 
 def create_all_tasks():
     """Creates a dictionary of tasks from a list of levels
-    :return: {task_name: task}
-        e.g. {multiple-py: Task, multiple-java: Task}
     """
     return {"repoexec-full-context": create_task(True, "full_context"), 
             "repoexec-medium-context": create_task(True, "medium_context"), 
-            "repoexec-short-context": create_task(True, "short_context")}
+            "repoexec-small-context": create_task(True, "small_context")}
 
 
 def create_task(strip_prompt, data_split):
