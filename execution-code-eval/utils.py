@@ -1,22 +1,12 @@
 from codetext.parser import PythonParser
-from tree_sitter import Language, Parser
 import tree_sitter
 from typing import List
 import pandas as pd
+import tree_sitter_python as tspython
+from tree_sitter import Language, Parser
 
-
-# TEST_BASE = "/datadrive/namlh31/testgen/codamosa/replication"
-# good_modules = "./good_modules.csv"
-# modules = pd.read_csv(good_modules, header=None)
-# MODULE_LIST = {}
-# for module in modules.values.tolist():
-#     if module[0] not in MODULE_LIST:
-#         MODULE_LIST[module[0]] = []
-#     MODULE_LIST[module[0]].append(module[1])
-
-PY_LANGUAGE = Language('./my-languages.so', 'python')
-parser = Parser()
-parser.set_language(PY_LANGUAGE)
+PY_LANGUAGE = Language(tspython.language())
+parser = Parser(PY_LANGUAGE)
 
 def traverse_type(node, results, kind, ignore_kind) -> None:
     # logger.warn('From version 0.0.6, we move `traverse_type` to `get_node_by_kind`')
