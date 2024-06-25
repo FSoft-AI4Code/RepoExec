@@ -1,6 +1,3 @@
-
-
-
 <div align="center">
 
 # RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
@@ -233,7 +230,7 @@ pip install -e .
 ## Set up for execution
 ```
 cd RepoExec/execution-code-eval
-docker build -t codeeval-runner -f docker/Dockerfile --platform linux/amd64 .
+(sudo) docker build -t codeeval-runner -f Dockerfile --platform linux/amd64 .
 ```
 
 ## Evaluation
