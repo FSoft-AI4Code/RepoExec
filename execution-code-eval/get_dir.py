@@ -1,10 +1,9 @@
-import editdistance
+# import editdistance
 from datasets import load_dataset
 import os
-import gdown
 import json
-from codebleu import calc_codebleu
-import evaluate
+# from codebleu import calc_codebleu
+# import evaluate
 import numpy as np
 from utils import get_node_by_kind, parser
 
