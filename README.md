@@ -285,6 +285,10 @@ python3 execute.py --subset full_context \
 python3 passk.py --execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
 ```
 
+### Calculate DIR
+```python
+python3 get_dir.py --execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
+```
 
 # Citing RepoExec
 More details can be found in our [paper](https://github.com/FSoft-AI4Code/RepoExec/blob/master/paper/main.pdf). 
