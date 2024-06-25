@@ -19,7 +19,7 @@ save_dir = args.execution_dir
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
-data = datasets.load_dataset("Fsoft-AIC/RepoCodeGen")
+data = datasets.load_dataset("Fsoft-AIC/RepoExec")
 data = data[args.subset]
 repo_dir = os.path.dirname(os.getcwd())
 print(repo_dir)

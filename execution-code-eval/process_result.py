@@ -3,7 +3,6 @@ import jsonlines, json
 import os
 from utils import parser, get_node_by_kind
 from codetext.parser import PythonParser
-import editdistance
 
 import argparse
 argument_parser = argparse.ArgumentParser()
@@ -25,47 +24,8 @@ src_rs = os.path.join(src, "generations.json")
 save_rs = os.path.join(src, "processed_generations.json")
 datasrc = load_dataset(args.dataset_name)[set_name]
 
-
-basic_import ="""
-import sys
-sys.path.insert(1, \"{}\")
-import unittest, pytest
-import math
-import random
-import re
-import copy
-import datetime
-import itertools
-import collections
-import heapq
-import statistics
-import functools
-import hashlib
-import numpy
-import numpy as np
-import string
-from typing import *
-from collections import *
-import pickle
-import timeout_decorator
-"""
-
-
 with open(src_rs, "r") as f:
     generations = json.load(f)
-
-def fix_import(original_content):
-    ori_root = parser.parse(bytes(original_content, "utf8"))
-    ori_root_node = ori_root.root_node
-    future_imports = [x.text.decode() for x in get_node_by_kind(ori_root_node, kind= ["future_import_statement"])]
-    
-
-    if future_imports:
-        for import_node in future_imports:
-            original_content = original_content.replace(import_node.text.decode(), "")
-        return "\n".join(future_imports) + "\n" + basic_import + "\n" + original_content
-    else:
-        return basic_import + "\n" + original_content
 
 def get_actual_solution(dp):
     root = parser.parse(bytes(dp["check"], "utf8"))

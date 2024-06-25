@@ -220,6 +220,8 @@ def camel_case_to_snake(input_string, separator='_'):
 Clone RepoExec:
 ```
 git clone https://github.com/FSoft-AI4Code/RepoExec.git 
+cd RepoExec
+pip install -r requirement
 ```
 ## Set up for model generation
 ```
