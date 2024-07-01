@@ -221,6 +221,7 @@ Clone RepoExec:
 ```
 git clone https://github.com/FSoft-AI4Code/RepoExec.git 
 cd RepoExec
+unzip test-apps.zip
 pip install -r requirement
 ```
 ## Set up for model generation
