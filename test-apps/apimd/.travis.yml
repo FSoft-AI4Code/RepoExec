@@ -1,0 +1,22 @@
+# Travis-CI for apimd
+language: python
+dist: xenial
+os: linux
+
+jobs:
+  include:
+    - python: "3.9"
+      dist: xenial
+      install:
+        - python3 -m pip install pip build wheel setuptools -U
+        - python3 setup.py install
+
+script:
+  - apimd --help
+
+before_cache:
+  - rm -rf $HOME/.cache/pip/log
+
+cache:
+  directories:
+    - $HOME/.cache/pip
