@@ -217,7 +217,7 @@ def camel_case_to_snake(input_string, separator='_'):
 ```
 
 # Quickstart Guide
-Clone RepoExec:
+## Set up RepoExec:
 ```
 git clone https://github.com/FSoft-AI4Code/RepoExec.git 
 cd RepoExec
