@@ -1,5 +1,5 @@
 python3 execute.py --subset full_context \
---prediction_dir ../results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
---execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2 \
+--prediction_dir /home/namlh31aic/Project/RepoExec/results/predictions/BasePrompt-OpenCodeInterpreter-DS-33B \
+--execution_dir /home/namlh31aic/Project/RepoExec/results/execution_rs/BasePrompt-OpenCodeInterpreter-DS-33B \
 
 # Please try to use absolute path if error
