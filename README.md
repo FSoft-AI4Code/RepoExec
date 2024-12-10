@@ -291,6 +291,9 @@ python3 passk.py --execution_dir ../results/examples/execution_rs/repoexec-full-
 python3 get_dir.py --execution_dir ../results/examples/execution_rs/repoexec-full-context/BasePrompt-phi-2
 ```
 
+# Dependency Extraction Tool
+Please see [this repo](https://github.com/FSoft-AI4Code/pydep) for tool usage.
+
 # Citing RepoExec
 More details can be found in our [paper](https://github.com/FSoft-AI4Code/RepoExec/blob/master/paper/main.pdf). 
 
