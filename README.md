@@ -1,6 +1,6 @@
 <div align="center">
 
-# RepoExec: Evaluate Code Generation with a Repository-Level Executable Benchmark
+# On the Impacts of Contexts on Repository-Level Code Generation
 
 <img src="./asset/repoexec_logo.png" width="120px" alt="logo">
 
