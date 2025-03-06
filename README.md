@@ -261,7 +261,7 @@ Example:
 [[pred_11, pred_12, pred13], [pred_21, pred_22, pred_23], ...]
 ```
 
-**Note**: if you use a close-source model (e.g ChatGPT), please use your custom script. This currently supports only an open-source model.
+**Note**: If you're using a closed-source model (such as gpt-4o-turbo), please follow these scripts [`api_llms_generate.py`](./execution-code-eval/api_llms_generate.py) and [`api_llms_infer.sh`](./execution-code-eval/scripts/api_llms_infer.sh) to run the process, and don't forget to export your API key. Once you have obtained the generated responses, run [`process_rs.sh`](./execution-code-eval/scripts/process_rs.sh) with the additional `--is_api` flag to process the results properly.
 
 ### Process output
 Process to acquire the target function from prediction and save to json file. 
