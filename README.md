@@ -272,7 +272,7 @@ python3 process_result.py \
 --prediction_dir ../results/examples/predictions/repoexec-full-context/BasePrompt-phi-2 \
 ```
 
-**Note**: For closed-source models that require API calls, after collecting the generated responses, run [`process_rs.sh`](./execution-code-eval/scripts/process_rs.sh) with the additional `--is_api` flag to process the results properly.
+**Note**: For closed-source models that require API calls, after collecting the generated responses, run `process_result` with the additional `--is_api` flag to process the results properly.
 
 ### Execution
 Execute the generated function of the model to obtain the execution output.
