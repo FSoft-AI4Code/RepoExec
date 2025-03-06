@@ -5,9 +5,9 @@ MODELS=("deepseek-ai/DeepSeek-R1-Distill-Llama-70B-free")
 
 
 for model in "${MODELS[@]}"; do
-    python closed_llms_generate.py \
+    python api_llms_generate.py \
         --provider togetherai \
         --model ${model} \
         --prompt_type instructprompt \
-        --save_dir /home/namlh31aic/Project/AI4Code/RepoExec/results/predictions/repoexec-full-context/InstructPrompt-DeepSeek-R1-Distill-Llama-70B
+        --save_dir ../results/predictions/repoexec-full-context/InstructPrompt-DeepSeek-R1-Distill-Llama-70B
 done

@@ -13,12 +13,15 @@ argument_parser.add_argument('--subset', help='full_context | medium_context | s
 # parser.add_argument('--run_gt', help='Execute the grouth truth solution', action="store_true")
 argument_parser.add_argument('--prediction_dir', help='outputdir from models which contain generation.json file', type=str,
                     default="./results/predictions/repo-codegen-full-context/gpt-3.5")
+argument_parser.add_argument('--is_gpt', action="store_true")
+argument_parser.add_argument('--is_api', action="store_true")
 args = argument_parser.parse_args()
 
 
 n_samples = args.n_samples
 set_name = args.subset
-is_gpt = "gpt" in args.prediction_dir.lower()
+is_api_call = args.is_api
+is_gpt = args.is_gpt or is_api_call
 src = args.prediction_dir
 src_rs = os.path.join(src, "generations.json")
 save_rs = os.path.join(src, "processed_generations.json")
@@ -39,7 +42,15 @@ def get_actual_solution(dp):
             return function_node.text.decode()
     return None
 
-
+def gpt_code_parser(response):
+    if "```python" in response:
+        parsed_code = response[response.index("```python") + len("```python"):]
+        return parsed_code[:parsed_code.rfind("```")]
+    elif "```" in response:
+        parsed_code = response[response.index("```") + len("```"):]
+        return parsed_code[:parsed_code.rfind("```")]
+    else:
+        return response
 
 print(datasrc)
 # exit()
@@ -63,20 +74,33 @@ for task_id, generation in enumerate(generations):
         actual_solution = datasrc[actual_id]["solution"]
 
     for gen_id, gen_rs in enumerate(generation[:n_samples]):
+        if "</think>" in gen_rs["prediction"]:
+            gen_rs["prediction"] = gen_rs["prediction"].split("</think>")[-1]#.replace("        ", "    ")
+
         if "[/INST]" in gen_rs:
             gen_rs = gen_rs.split("[/INST]")[1].strip()
-        if is_gpt:
-            solution_body = None
-            if datasrc[actual_id]["target_function_prompt"].strip() in gen_rs:
-                solution_body = gen_rs[gen_rs.index(datasrc[actual_id]["target_function_prompt"].strip()) + len(datasrc[actual_id]["target_function_prompt"].strip()): ]
 
-                if not solution_body.startswith("\n    ") and not solution_body.startswith("def") and not solution_body.startswith("\ndef"):
-                    solution_body = "\n    " + solution_body.strip()
+        if is_gpt:
+            if is_api_call:
+                if is_instruct:
+                    gen_rs = gpt_code_parser(gen_rs["prediction"])
                 else:
-                    solution_body = None
+                    if not gpt_code_parser(gen_rs["prediction"]).strip("\n").startswith("    "):
+                        gen_rs = datasrc[actual_id]["target_function_prompt"] + textwrap.indent(gpt_code_parser(gen_rs["prediction"]), prefix="    ")
+                    else:
+                        gen_rs = datasrc[actual_id]["target_function_prompt"] + gpt_code_parser(gen_rs["prediction"])
+            else:
+                solution_body = None
+                if datasrc[actual_id]["target_function_prompt"].strip() in gen_rs:
+                    solution_body = gen_rs[gen_rs.index(datasrc[actual_id]["target_function_prompt"].strip()) + len(datasrc[actual_id]["target_function_prompt"].strip()): ]
+
+                    if not solution_body.startswith("\n    ") and not solution_body.startswith("def") and not solution_body.startswith("\ndef"):
+                        solution_body = "\n    " + solution_body.strip()
+                    else:
+                        solution_body = None
                 
-            if solution_body is not None:
-                gen_rs = datasrc[actual_id]["target_function_prompt"].strip() + solution_body
+                if solution_body is not None:
+                    gen_rs = datasrc[actual_id]["target_function_prompt"].strip() + solution_body
 
                 
         solution_fn = None
