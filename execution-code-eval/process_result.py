@@ -75,14 +75,13 @@ for task_id, generation in enumerate(generations):
         actual_solution = datasrc[actual_id]["solution"]
 
     for gen_id, gen_rs in enumerate(generation[:n_samples]):
-        if "</think>" in gen_rs["prediction"]:
-            gen_rs["prediction"] = gen_rs["prediction"].split("</think>")[-1]#.replace("        ", "    ")
-
         if "[/INST]" in gen_rs:
             gen_rs = gen_rs.split("[/INST]")[1].strip()
 
         if is_gpt:
             if is_api_call:
+                if "</think>" in gen_rs["prediction"]:
+                    gen_rs["prediction"] = gen_rs["prediction"].split("</think>")[-1]#.replace("        ", "    ")
                 if is_instruct:
                     gen_rs = gpt_code_parser(gen_rs["prediction"])
                 else:
