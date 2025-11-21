@@ -71,6 +71,7 @@ RUN apt-get update \
          tk \
          python3-tk
 
+RUN pip install --upgrade pip
 RUN pip install pandas tree-sitter pytest pytest-cov pytest-csv pytest-json coverage datasets timeout_decorator autoimport codetext jsonlines beautifulsoup4
 # ADD ./test-apps /pynguin/test-apps
 ADD human-eval /codegendata/human-eval
