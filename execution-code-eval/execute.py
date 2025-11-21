@@ -38,5 +38,6 @@ for task_id in range(len(data)):
     -v {repo_dir}:/input:ro \
     -v {repo_dir}/data_with_test_case:/output:ro \
     -v {repo_dir}/{project}/:/package:ro \
-    -v {pip_cache_vol}:/root/.cache/pip \
+    -v {pip_cache_vol}:/tmp/pip_cache \
+    -e PIP_CACHE_DIR=/tmp/pip_cache \
     codeeval-runner --task_id {task_id} --problem_file /pred_dir/processed_generations.json --rs_dir /rs_dir --timeout 120")
