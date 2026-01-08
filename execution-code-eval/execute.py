@@ -19,6 +19,8 @@ save_dir = args.execution_dir
 if not os.path.exists(save_dir):
     os.makedirs(save_dir)
 
+pip_cache_vol = "repoexec_pip_cache_vol"
+
 data = datasets.load_dataset("Fsoft-AIC/RepoExec")
 data = data[args.subset]
 repo_dir = os.path.dirname(os.getcwd())
@@ -36,4 +38,6 @@ for task_id in range(len(data)):
     -v {repo_dir}:/input:ro \
     -v {repo_dir}/data_with_test_case:/output:ro \
     -v {repo_dir}/{project}/:/package:ro \
+    -v {pip_cache_vol}:/tmp/pip_cache \
+    -e PIP_CACHE_DIR=/tmp/pip_cache \
     codeeval-runner --task_id {task_id} --problem_file /pred_dir/processed_generations.json --rs_dir /rs_dir --timeout 120")
