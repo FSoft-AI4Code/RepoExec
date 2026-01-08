@@ -16,6 +16,7 @@ argument_parser.add_argument('--prediction_dir', help='outputdir from models whi
                     default="./results/predictions/repo-codegen-full-context/gpt-3.5")
 argument_parser.add_argument('--is_gpt', action="store_true")
 argument_parser.add_argument('--is_api', action="store_true")
+argument_parser.add_argument('--is_instruct', action="store_true")
 args = argument_parser.parse_args()
 
 
@@ -23,6 +24,7 @@ n_samples = args.n_samples
 set_name = args.subset
 is_api_call = args.is_api
 is_gpt = args.is_gpt or is_api_call
+is_instruct = args.is_instruct
 src = args.prediction_dir
 src_rs = os.path.join(src, "generations.json")
 save_rs = os.path.join(src, "processed_generations.json")
